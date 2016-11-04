@@ -6,18 +6,30 @@ export default () => {
     return (
         <Navbar inverse>
             <Navbar.Header>
-                <Navbar.Brand>
-                    Hello Wolfgang !
-                </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav pullRight>
                     <NavItem>
-                        <Link to="/personnage" activeStyle={{ color: 'white' }}>Personnage et Caractéristiques</Link>
+                        <Link to="/home" activeStyle={{ color: 'white' }}>Home</Link>
                     </NavItem>
                     <NavItem>
-                        <Link to="/equipement" activeStyle={{ color: 'white' }}>Equipement</Link>
+                        <Link to="/photos" activeStyle={{ color: 'white' }}>Photos</Link>
+                    </NavItem>
+                    <NavItem>
+                        <Link to="/photos" activeStyle={{ color: 'white' }}>Classement</Link>
+                    </NavItem>
+                    <NavItem>
+                        <Link to="/photos" activeStyle={{ color: 'white' }}>Stats</Link>
+                    </NavItem>
+                    <NavItem>
+                        <Link to="/photos" activeStyle={{ color: 'white' }}>Top 5</Link>
+                    </NavItem>
+                    <NavItem>
+                        <Link to="/photos" activeStyle={{ color: 'white' }}>La Gaizette</Link>
+                    </NavItem>
+                    <NavItem>
+                        <Link to="/photos" activeStyle={{ color: 'white' }}>Contact</Link>
                     </NavItem>
                 </Nav>
             </Navbar.Collapse>
