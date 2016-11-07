@@ -1,40 +1,40 @@
 import React from 'react'
-import { Navbar, Nav, NavItem, Col } from 'react-bootstrap'
+import { Navbar, Nav, NavItem, Col, Image } from 'react-bootstrap'
 import { Link } from 'react-router';
 
 export default () => {
     return (
-        <Navbar inverse collapseOnSelect fluid>
+        <Navbar inverse collapseOnSelect fluid fixedTop>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <Col xsHidden>
-                        <a href="#"><img className="logo" src="../img/logo.png" alt="Les Elans loisirs logo" /></a>
+                    <Col xsHidden smHidden>
+                        <a href="#/home"><Image className="logo" src="../img/logo.png" alt="Les Elans loisirs logo" /></a>
                     </Col>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <NavItem>
-                        <Link to="/home" activeStyle={{ color: '#f984fb' }}>Home</Link>
+                    <NavItem href="#/home" activeStyle={{ color: '#f984fb' }}>
+                        Home
                     </NavItem>
-                    <NavItem>
-                        <Link to="/photos" activeStyle={{ color: '#f984fb' }}>Photos</Link>
+                    <NavItem href="#/photos" activeStyle={{ color: '#f984fb' }}>
+                        Photos
                     </NavItem>
-                    <NavItem>
-                        <Link to="/classement" activeStyle={{ color: '#f984fb' }}>Classement</Link>
+                    <NavItem href="#/classement" activeStyle={{ color: '#f984fb' }}>
+                        Classement
                     </NavItem>
-                    <NavItem>
-                        <Link to="/stats" activeStyle={{ color: '#f984fb' }}>Stats</Link>
+                    <NavItem href="#/stats" activeStyle={{ color: '#f984fb' }}>
+                        Stats
                     </NavItem>
-                    <NavItem>
-                        <Link to="/top5" activeStyle={{ color: '#f984fb' }}>Top 5</Link>
+                    <NavItem href="#/top5" activeStyle={{ color: '#f984fb' }}>
+                        Top 5
                     </NavItem>
-                    <NavItem href="http://la-gaizette.fr/" target="_blank">
+                    <NavItem href="http://la-gaizette.fr/" activeStyle={{ color: '#f984fb' }}>
                         La Gaizette
                     </NavItem>
-                    <NavItem>
-                        <Link to="/contact" activeStyle={{ color: '#f984fb' }}>Contact</Link>
+                    <NavItem href="#/contact" activeStyle={{ color: '#f984fb' }}>
+                        Contact
                     </NavItem>
                 </Nav>
             </Navbar.Collapse>

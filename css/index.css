@@ -8,6 +8,27 @@ html, body {
     font-size: 18px;
 }
 
+/* NAVIGATION */
+
+.navbar-brand {
+    padding: 0 30px;
+}
+
+.navbar-nav>li>a{
+    text-transform: uppercase;
+    color: #f0ffff !important;
+    cursor: pointer;
+}
+
+.navbar-nav>li>a:hover{
+    text-transform: uppercase;
+    color: #f984fb !important;
+    text-decoration: none;
+}
+
+/* FIN NAVIGATION */
+
+/* CONTENT */
 .row {
     margin-left: 0;
     margin-right: 0;
@@ -21,50 +42,53 @@ html, body {
     padding-right: 0;
 }
 
+h2 {
+    color: #f984fb !important;
+}
+
 div[class*="col"] {
     padding-right: 0;
     padding-left: 0;
 }
 
 section {
-    padding: 10%;
-}
-
-.navbar {
-    position: fixed;
-    width: 100%;
-}
-
-.navbar-brand {
-    padding: 0 50px;
-}
-
-.navbar-nav {
-    margin: 7.5px 0;
-}
-
-.navbar-nav>li>a>a, .navbar-nav>li>a{
-    text-transform: uppercase;
-    color: #f0ffff !important;
-    cursor: pointer;
-}
-
-.navbar-nav>li>a>a:hover, .navbar-nav>li>a:hover{
-    text-transform: uppercase;
-    color: #f984fb !important;
-    text-decoration: none;
-}
-
-.navbar-nav >li>a>a:focus, .navbar-nav>li>a:focus{
-    text-transform: uppercase;
-    color: #f984fb !important;
-    text-decoration: none;
+    padding: 2% 10%;
 }
 
 .page-header {
     border-bottom: 1px solid #f984fb;
 }
 
-.table {
-    border: none;
+.page-header:first-letter {
+    color: #f984fb !important;
 }
+
+/* FIN CONTENT */
+
+/* HOME PAGE */
+
+.rencontre img {
+    height: 155px;
+}
+
+.rencontre .vs {
+    height: 155px;
+    text-align: center;
+    padding: 57px 0;
+}
+
+/* FIN HOME PAGE */
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .navbar-nav {
+        margin: 7.5px 0;
+    }
+
+    section {
+        padding: 3% 3%;
+    }
+}
+
+/* FIN MEDIA QUERIES */
