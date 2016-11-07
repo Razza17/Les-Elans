@@ -8,7 +8,7 @@ export default () => {
             <Navbar.Header>
                 <Navbar.Brand>
                     <Col xsHidden smHidden>
-                        <a to="/home"><Image className="logo" src="../img/logo.png" alt="Les Elans loisirs logo" /></a>
+                        <a href="#/home"><Image className="logo" src="../img/logo.png" alt="Les Elans loisirs logo" /></a>
                     </Col>
                 </Navbar.Brand>
                 <Navbar.Toggle />
