@@ -7,21 +7,21 @@ export default () => {
             <Row>
                 <Carousel>
                     <Carousel.Item>
-                        <Image src="../img/une/une1.jpg" responsive />
+                        <Image src="../img/une/une1.jpg" />
                         <Carousel.Caption>
                             <h3>La déception</h3>
                             <p>Les ELans échouent 14 - 6 face aux champions de France en titre</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src="../img/une/une2.jpg" responsive />
+                        <Image src="../img/une/une2.jpg" />
                         <Carousel.Caption>
                             <h3>Dimanche 13 Novembre 18h30</h3>
                             <p>Venez nombreux supporter les roses et bleus lors de leur première rencontre à domicile.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src="../img/une/une3.jpg" responsive />
+                        <Image src="../img/une/une3.jpg" />
                         <Carousel.Caption>
                             <h3>Le retour en D3</h3>
                             <p>Landry Labat, attendu cette année avec nos Elans G, a finalement signé pour une année de plus en D3.</p>
