@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory } from 'react-router'
+import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 import App from './App'
 import Home from './components/Home'
 import Classement from './components/Classement'
@@ -11,7 +11,7 @@ import Contact from './components/Contact'
 ReactDOM.render((
     <Router history={hashHistory}>
         <Route path="/" component={App}>
-            <Route path="/home" component={Home} />
+            <IndexRoute component={Home} />
             <Route path="/classement" component={Classement} />
             <Route path="/stats" component={Stats} />
             <Route path="/top5" component={Top5} />

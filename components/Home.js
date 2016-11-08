@@ -42,9 +42,8 @@ export default () => {
 
 
                 <Row>
-                    <PageHeader>Les photos en téléchargement</PageHeader>
-
-                    <Col xs={12} className="photo">
+                    <Col xsHidden sm={12} className="photo">
+                        <PageHeader>Les photos en téléchargement</PageHeader>
                         <ul>
                             <li><Button bsStyle="primary" href="../photo/downloads/saison2013.zip">Saison 2012 - 2013 (4 Go)</Button></li>
                             <li><Button bsStyle="primary" href="../photo/downloads/saison2014.zip">Saison 2013 - 2014</Button></li>
@@ -58,7 +57,7 @@ export default () => {
                     <Col xs={12} md={5}>
                         <PageHeader>Dimanche 13 Novembre 18h30</PageHeader>
                         <Row className="rencontre">
-                            <Col xs={12} md={8} mdOffset={2}>
+                            <Col xs={12} md={8} mdOffset={2} smOffset={3}>
                                 <table>
                                     <tr>
                                         <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>

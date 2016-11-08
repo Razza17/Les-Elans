@@ -1,0 +1,218 @@
+{
+  "classement" : [
+    {
+      "position" : 1,
+      "equipe" : "Meudon",
+      "joues" : "3",
+      "points" : "15",
+      "gagne" : "3",
+      "nul" : "0",
+      "perdu" : "0",
+      "diff" : "+15",
+      "malus" : "0"
+    },
+    {
+      "position" : 2,
+      "equipe" : "Fontenay",
+      "joues" : "1",
+      "points" : "5",
+      "gagne" : "1",
+      "nul" : "0",
+      "perdu" : "0",
+      "diff" : "+04",
+      "malus" : "0"
+    },
+    {
+      "position" : 3,
+      "equipe" : "Vitry",
+      "joues" : "1",
+      "points" : "5",
+      "gagne" : "1",
+      "nul" : "0",
+      "perdu" : "0",
+      "diff" : "+02",
+      "malus" : "0"
+    },
+    {
+      "position" : 4,
+      "equipe" : "F.Volants",
+      "joues" : "2",
+      "points" : "2",
+      "gagne" : "0",
+      "nul" : "0",
+      "perdu" : "2",
+      "diff" : "-04",
+      "malus" : "0"
+    },
+    {
+      "position" : 5,
+      "equipe" : "Evry",
+      "joues" : "1",
+      "points" : "1",
+      "gagne" : "0",
+      "nul" : "0",
+      "perdu" : "1",
+      "diff" : "-04",
+      "malus" : "0"
+    },
+    {
+      "position" : 6,
+      "equipe" : "Champigny",
+      "joues" : "1",
+      "points" : "1",
+      "gagne" : "0",
+      "nul" : "0",
+      "perdu" : "1",
+      "diff" : "-08",
+      "malus" : "0"
+    },
+    {
+      "position" : 7,
+      "equipe" : "Franconville",
+      "joues" : "1",
+      "points" : "0",
+      "gagne" : "0",
+      "nul" : "0",
+      "perdu" : "1",
+      "diff" : "-03",
+      "malus" : "-1"
+    }
+  ],
+  "stats" : [
+    {
+      "nom" : "Labat",
+      "prenom" : "Laurent",
+      "buts" : 1,
+      "assistes" : 2,
+      "points" : "01",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Gachon",
+      "prenom" : "Damien",
+      "buts" : 2,
+      "assistes" : 3,
+      "points" : "02",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Chichlo",
+      "prenom" : "Paul",
+      "buts" : 0,
+      "assistes" : 5,
+      "points" : "03",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Gravier",
+      "prenom" : "Fabrice",
+      "buts" : 10,
+      "assistes" : 8,
+      "points" : "10",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Renard",
+      "prenom" : "Vincent",
+      "buts" : 22,
+      "assistes" : 15,
+      "points" : "20",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Renard",
+      "prenom" : "Jérôme",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "11",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Renard",
+      "prenom" : "Fabien",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "24",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Ollivier",
+      "prenom" : "Charly",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "00",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Chantelard",
+      "prenom" : "Laurent",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "00",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Cordon",
+      "prenom" : "Fabien",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "00",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Florchinger",
+      "prenom" : "Fred",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "00",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Daudet",
+      "prenom" : "Yoann",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "00",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Le Dour",
+      "prenom" : "Seb",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "00",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Bouaziz",
+      "prenom" : "Vanya",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "00",
+      "penalites" : 0,
+      "matchs" : 0
+    },
+    {
+      "nom" : "Chantelard",
+      "prenom" : "Simon",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : "00",
+      "penalites" : 0,
+      "matchs" : 0
+    }
+  ]
+}

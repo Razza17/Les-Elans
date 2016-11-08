@@ -15,7 +15,7 @@ export default () => {
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <li><Link to="/home" activeStyle={{ color: '#f984fb' }}>Home</Link></li>
+                    <li><Link to="/" activeStyle={{ color: '#f984fb' }}>Home</Link></li>
                     <li><Link to="/classement" activeStyle={{ color: '#f984fb' }}>Classement</Link></li>
                     <li><Link to="/stats" activeStyle={{ color: '#f984fb' }}>Stats</Link></li>
                     <li><Link to="/top5" activeStyle={{ color: '#f984fb' }}>Top 5</Link></li>
