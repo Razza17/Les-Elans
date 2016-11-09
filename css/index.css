@@ -10,7 +10,7 @@ html, body {
 
 /* NAVIGATION */
 .navbar-brand {
-    padding: 0 30px;
+    padding: 0 14px;
 }
 
 .navbar-nav>li>a {
@@ -112,7 +112,7 @@ ul {
 /* TOP5 PAGE */
 .top5 ul {
     width: 520px;
-    margin: inherit;
+    margin: auto;
     padding: 60px 0;
     perspective: 500px;
 }
@@ -144,35 +144,39 @@ ul {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-.top5 ul li .topPosition:nth-child(1), .top5 ul li .topPosition:nth-child(2) {
+.top5 ul li:nth-child(1) .topPosition, .top5 ul li:nth-child(2) .topPosition {
     left: 5px;
 }
 
-.top5 ul li .topPosition .topTxt {
+.top5 ul li .topTxt {
     color: #ffffff;
     font-size: 12px;
     padding: 10px;
     text-align: center;
 }
 
-.top5 ul li .topPosition:first-child, .top5 ul li .topPosition:last-child{
+.top5 ul li img {
+    width: 100%;
+}
+
+.top5 ul li:first-child, .top5 ul li:last-child{
     z-index: 45;
 }
 
-.top5 ul li .topPosition:nth-child(3) {
+.top5 ul li:nth-child(3) {
      transform: rotateY(0deg) scale(1.2);
      z-index: 55;
  }
 
-.top5 ul li .topPosition:nth-child(3) ~ li, .top5 ul li .topPosition:hover ~ li {
+.top5 ul li:nth-child(3) ~ li, .top5 ul li:hover ~ li {
   transform: rotateY(-45deg);
 }
 
-.top5 ul li .topPosition:first-child:hover {
+.top5 ul li:first-child:hover {
      z-index: 60;
  }
 
-.top5 ul li .topPosition:hover, .top5 ul li .topPosition:nth-child(3) ~ li:hover {
+.top5 ul li:hover, .top5 ul li:nth-child(3) ~ li:hover {
   transform: rotateY(0deg) scale(1.2);
   z-index: 60;
 }

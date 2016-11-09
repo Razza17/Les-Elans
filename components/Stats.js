@@ -7,7 +7,7 @@ export default class Stats extends Component {
     render() {
         function order() {
             function compare(x,y) {
-                return y.points - x.points;
+                return (y.buts + y.assistes) - (x.buts + x.assistes);
             };
 
             let nombres = Elans.stats;
@@ -17,7 +17,7 @@ export default class Stats extends Component {
         return (
             <section>
                 <Row>
-                    <Col xs={12} md={6} mdOffset={3}>
+                    <Col xs={12} md={8} mdOffset={2}>
                         <PageHeader>Statistiques des Elans G</PageHeader>
                         <Table bordered condensed hover>
                             <thead>
