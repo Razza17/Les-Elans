@@ -88,7 +88,7 @@ export default class Classement extends Component {
 
                                 <tr>
                                     <td>Dimanche 13 Novembre 18h30</td>
-                                    <td>Champigny Vs Fontenay</td>
+                                    <td>Champigny 3 - 3 Fontenay</td>
                                 </tr>
 
                                 <tr>
