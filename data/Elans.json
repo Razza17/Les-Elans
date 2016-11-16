@@ -83,18 +83,18 @@
       "nom" : "Labat",
       "prenom" : "Laurent",
       "buts" : 1,
-      "assistes" : 2,
-      "penalites" : 0,
-      "matchs" : 1,
+      "assistes" : 3,
+      "penalites" : 2,
+      "matchs" : 2,
       "img" : "../img/joueurs/louloute.jpg"
     },
     {
       "nom" : "Gachon",
       "prenom" : "Damien",
       "buts" : 0,
-      "assistes" : 1,
-      "penalites" : 0,
-      "matchs" : 1,
+      "assistes" : 2,
+      "penalites" : 2,
+      "matchs" : 2,
       "img" : "../img/joueurs/damien.jpg"
     },
     {
@@ -109,10 +109,10 @@
     {
       "nom" : "Gravier",
       "prenom" : "Fabrice",
-      "buts" : 0,
+      "buts" : 1,
       "assistes" : 0,
       "penalites" : 0,
-      "matchs" : 0,
+      "matchs" : 1,
       "img" : "../img/joueurs/fabrice.jpg"
     },
     {
@@ -121,7 +121,7 @@
       "buts" : 0,
       "assistes" : 0,
       "penalites" : 0,
-      "matchs" : 0,
+      "matchs" : 1,
       "img" : "../img/joueurs/vincent.jpg"
     },
     {
@@ -156,26 +156,26 @@
       "prenom" : "Laurent",
       "buts" : 0,
       "assistes" : 0,
-      "penalites" : 0,
-      "matchs" : 1,
+      "penalites" : 2,
+      "matchs" : 2,
       "img" : "../img/joueurs/laurent.jpg"
     },
     {
       "nom" : "Cordon",
       "prenom" : "Fabien",
       "buts" : 1,
-      "assistes" : 0,
-      "penalites" : 0,
-      "matchs" : 1,
+      "assistes" : 1,
+      "penalites" : 12,
+      "matchs" : 2,
       "img" : "../img/joueurs/fab.jpg"
     },
     {
       "nom" : "Florchinger",
       "prenom" : "Fred",
-      "buts" : 0,
+      "buts" : 2,
       "assistes" : 0,
-      "penalites" : 4,
-      "matchs" : 1,
+      "penalites" : 18,
+      "matchs" : 2,
       "img" : "../img/joueurs/fred.jpg"
     },
     {
@@ -183,8 +183,8 @@
       "prenom" : "Yoann",
       "buts" : 0,
       "assistes" : 0,
-      "penalites" : 2,
-      "matchs" : 1,
+      "penalites" : 4,
+      "matchs" : 2,
       "img" : "../img/joueurs/yoann.jpg"
     },
     {
@@ -202,7 +202,7 @@
       "buts" : 0,
       "assistes" : 0,
       "penalites" : 0,
-      "matchs" : 1,
+      "matchs" : 2,
       "img" : "../img/joueurs/vanya.jpg"
     },
     {
@@ -211,16 +211,16 @@
       "buts" : 0,
       "assistes" : 0,
       "penalites" : 2,
-      "matchs" : 1,
+      "matchs" : 2,
       "img" : "../img/joueurs/player.jpg"
     },
     {
       "nom" : "Aghroud",
       "prenom" : "Bachir",
       "buts" : 2,
-      "assistes" : 0,
+      "assistes" : 1,
       "penalites" : 0,
-      "matchs" : 1,
+      "matchs" : 2,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -229,7 +229,7 @@
       "buts" : 0,
       "assistes" : 2,
       "penalites" : 0,
-      "matchs" : 1,
+      "matchs" : 2,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -237,8 +237,8 @@
       "prenom" : "Jonathan",
       "buts" : 0,
       "assistes" : 0,
-      "penalites" : 0,
-      "matchs" : 1,
+      "penalites" : 2,
+      "matchs" : 2,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -247,7 +247,7 @@
       "buts" : 0,
       "assistes" : 0,
       "penalites" : 0,
-      "matchs" : 1,
+      "matchs" : 2,
       "img" : "../img/joueurs/player.jpg"
     }
   ]
