@@ -1,68 +1,42 @@
 import React from 'react'
+import { Row, Col, PageHeader } from 'react-bootstrap'
 
 export default () => {
     return (
-        <section className="content">
-
-            <div className="page-header medium-10 medium-offset-1 columns">
-                <h1>Bienvenue sur le site des Elans loisirs</h1>
-            </div>
-
-            <div className="row">
-                <div className="post medium-10 medium-offset-1 columns">
+        <section>
+            <Row>
+                <Col xs={12} md={3} mdOffset={1}>
+                    <PageHeader>Où nous trouver ?</PageHeader>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.1050964936053!2d2.5081806676264553!3d48.81805616376097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60dae1eebe03b%3A0x69c5c53b89729fe3!2sPatinoire+de+Champigny-sur-Marne!5e0!3m2!1sfr!2sfr!4v1479728980193" width="100%" height="430" frameborder="0" allowfullscreen></iframe>
+                </Col>
+                <Col xs={12} md={3} mdOffset={1}>
+                    <PageHeader>Sur les réseaux</PageHeader>
+                    <ul className="social">
+                        <li>
+                            <img src="../img/contact/fb_icon.png" />
+                            <a href="https://www.facebook.com/leselansloisir/" target="_blank">Sur Facebook</a>
+                        </li>
+                        <li>
+                            <img src="../img/contact/twitter_icon.png" />
+                            <a href="https://twitter.com/egofficiel" target="_blank">Sur Twitter</a> #WeArePinkPlayers
+                        </li>
+                        <li>
+                            <img src="../img/contact/email_icon.png" />
+                            Par email : <a href="mailto:elansloisir@gmail.com">elansloisir@gmail.com</a>
+                        </li>
+                    </ul>
+                </Col>
+                <Col xs={12} md={3} mdOffset={1} className="glace">
+                    <PageHeader>Sur la glace</PageHeader>
                     <p>
-                        Les Elans loisirs de Champigny est une équipe de hockey sur glace située en région parisienne (Champigny sur Marne) et engagée dans le Trophée Fédéral Loisir.<br /><br />
-                        Pour la saison 2016 - 2017 les Elans loisirs sont en Ligue 1 du trophée loisir et ont pour objectif d'atteindre la final nationale pour la première fois de leur histoire.<br /><br />
-                        La ligue 1 du Trophée Loisir est composée des équipes suivantes :<br />
-                        Meudon, Paris, Champigny, Franconville, Fontenay, Vitry et Evry.
+                        Les entrainements sont les lundi et mercredi de<br />
+                        22h45 à minuit<br />(hors vacances scolaires)
                     </p>
-                </div>
-            </div>
-
-            <div className="row">
-                <div className="post medium-6 columns">
-                    <div className="page-header">
-                        <h3>Dimanche 13 Novembre 18h30</h3>
-                    </div>
-
-                    <table className="medium-12">
-                        <tr>
-                            <td className="medium-4"><img src="img/logos/logo-eg.png" className="width100" alt="Les Elans de Champigny" /></td>
-                            <td className="medium-1">VS</td>
-                            <td className="medium-4"><img src="img/logos/logo-fontenay.png" className="width100" alt="Les Pumas de Fontenay" /></td>
-                        </tr>
-                    </table>
-
-                    <div className="medium-12">
-                        <p>
-                            La deuxième journée du trophée loisir de nos Elans seront face aux Pumas de Fontenay. Ce sera leur premier match à domicile alors venez nombreux les encourager.
-                        </p>
-                    </div>
-                </div>
-                <div className="banner_img visible-for-medium-up medium-6 columns" data-bottom-top="left:100%;opacity:0;" data-center="left:0;opacity:1;">
-                    <img src="img/banner_img2.jpg" alt="banner_image" />
-                </div>
-            </div>
-
-            <div className="row">
-                <div className="medium-12">
-                    <div className="page-header columns">
-                        <h2>Le dernier article de la Gaizette</h2>
-                    </div>
-
-                    <div className="medium-6 columns">
-                        <img src="img/gaizette/equipe.jpg" className="width100 relative" alt="equipe les elans loisirs" data-bottom-top="transform:scale(1);" data-center="transform:scale(1.08);" />
-                    </div>
-
-                    <div className="post medium-6 columns">
-                        <h2>Fin de saison pour les EGs</h2>
-                        <p>
-                            Après un exercice 2015/2016 pour le moins compliqué, l’heure est aux premiers bilans du côté des roses et bleus. A cet effet, les dirigeants campinois devraient se réunir prochainement pour identifier les forces et les faiblesses d’une équipe en perdition et de préparer au mieux la saison prochaine. Malgré une nouvelle participation aux playoffs, l’année fut délicate pour […]
-                            <a href="http://la-gaizette.fr/fin-de-saison-pour-les-eg/" className="button tiny round" target="_blank">lire l'article</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+                    <p>
+                        Les inscriptions sont closes pour la saison 2016-2017
+                    </p>
+                </Col>
+            </Row>
         </section>
     );
 }

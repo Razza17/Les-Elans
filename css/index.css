@@ -181,6 +181,23 @@ ul {
   z-index: 60;
 }
 
+.social {
+    padding: 0;
+}
+
+.social li {
+    margin-top: 25px;
+    color: #F677F8;
+}
+
+.social li img {
+    margin-right: 10px;
+}
+
+.glace p {
+    text-align: center;
+}
+
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 320px) and (max-width: 767px) {
