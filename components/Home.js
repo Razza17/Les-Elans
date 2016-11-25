@@ -9,15 +9,15 @@ export default () => {
                     <Carousel.Item>
                         <Image src="../img/une/une1.jpg" />
                         <Carousel.Caption>
-                            <h3>La déception</h3>
-                            <p>Les ELans échouent 14 - 6 face aux champions de France en titre</p>
+                            <h3>Un bon match mais pas suffisant</h3>
+                            <p>Les ELans s'inclinent 6 - 4 face à une bonne équipe de Franconville.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <Image src="../img/une/une2.jpg" />
                         <Carousel.Caption>
-                            <h3>Dimanche 13 Novembre 18h30</h3>
-                            <p>Venez nombreux supporter les roses et bleus lors de leur première rencontre à domicile.</p>
+                            <h3>Dimanche 27 Novembre 21h</h3>
+                            <p>Venez nombreux supporter les roses et bleus lors de leur déplacement à l'Accor Hotel Arena.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -60,9 +60,9 @@ export default () => {
                             <Col xs={12} md={8} mdOffset={2} smOffset={3}>
                                 <table>
                                     <tr>
-                                        <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
+                                        <td><img src="img/logos/logo-paris.png" alt="Les Français Volants" /></td>
                                         <td>VS</td>
-                                        <td><img src="img/logos/logo-fontenay.png" alt="Les Pumas de Fontenay" /></td>
+                                        <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
                                     </tr>
                                 </table>
                             </Col>
