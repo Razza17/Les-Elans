@@ -15,7 +15,7 @@ export default class Stats extends Component {
         }
         order();
         return (
-            <section>
+            <section className="stats">
                 <Row>
                     <Col xs={12} md={8} mdOffset={2}>
                         <PageHeader>Statistiques des Elans G</PageHeader>

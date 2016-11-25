@@ -1,5 +1,5 @@
 import React from 'react'
-import { PageHeader, Row, Col, Image, Button, Carousel } from 'react-bootstrap'
+import { PageHeader, Row, Col, Image, Button, Carousel, Table } from 'react-bootstrap'
 
 export default () => {
     return (
@@ -58,13 +58,13 @@ export default () => {
                         <PageHeader>Dimanche 13 Novembre 18h30</PageHeader>
                         <Row className="rencontre">
                             <Col xs={12} md={8} mdOffset={2} smOffset={3}>
-                                <table>
+                                <Table responsive>
                                     <tr>
                                         <td><img src="img/logos/logo-paris.png" alt="Les Français Volants" /></td>
                                         <td>VS</td>
                                         <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
                                     </tr>
-                                </table>
+                                </Table>
                             </Col>
                         </Row>
 

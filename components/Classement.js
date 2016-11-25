@@ -17,7 +17,7 @@ export default class Classement extends Component {
 
         order();
         return (
-            <section>
+            <section className="classement">
                 <Row>
                     <Col xsHidden md={5}>
                         <PageHeader>Classement Trophée Loisir</PageHeader>
@@ -77,10 +77,12 @@ export default class Classement extends Component {
                     <Col xs={12} md={5} mdOffset={1}>
                         <PageHeader>Calendrier</PageHeader>
                         <Table bordered condensed hover>
-                            <tbody>
+                            <thead>
                                 <tr>
-                                    <td colSpan="2">Match aller</td>
+                                    <th colSpan="2">Match aller</th>
                                 </tr>
+                            </thead>
+                            <tbody>
                                 <tr>
                                     <td>Dimanche 23 Octobre 20h30</td>
                                     <td>Meudon 14 - 6 Champigny</td>

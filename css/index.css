@@ -25,7 +25,7 @@ html, body {
     text-decoration: none;
 }
 
-.navbar-nav>li>a:focus, .navbar-nav>li>a:active {
+.navbar-nav>li>a.active {
     text-transform: uppercase;
     color: #f984fb !important;
     text-decoration: none;
@@ -72,7 +72,6 @@ section {
 ul {
     list-style-type: none;
 }
-/* FIN CONTENT */
 
 
 /* HOME PAGE */
@@ -80,24 +79,24 @@ ul {
     padding-top: 51px;
 }
 
-.rencontre img {
-    height: 155px;
-}
-
-.rencontre .vs {
-    height: 155px;
-    text-align: center;
-    padding: 57px 0;
-}
-
 .photo ul li {
     display: inline-block;
     margin: 0 20px;
 }
-/* FIN HOME PAGE */
+
+.rencontre Table tr td:last-child {
+    text-align: right;
+}
 
 
 /* CLASSEMENT PAGE */
+.classement .table thead tr {
+    background: -moz-linear-gradient(top,  rgba(249,132,251,1) 0%, rgba(249,132,251,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(249,132,251,1) 0%,rgba(249,132,251,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(249,132,251,1) 0%,rgba(249,132,251,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f984fb', endColorstr='#00f984fb',GradientType=0 ); /* IE6-9 */
+}
+
 .table>thead>tr>th, .table>tbody>tr>td {
     text-align: center;
 }
@@ -106,7 +105,14 @@ ul {
     background-color: #ffffff;
     color: #000000;
 }
-/* CLASSEMENT PAGE */
+
+/* STATS PAGE */
+.stats .table thead tr {
+    background: -moz-linear-gradient(top,  rgba(249,132,251,1) 0%, rgba(249,132,251,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(249,132,251,1) 0%,rgba(249,132,251,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(249,132,251,1) 0%,rgba(249,132,251,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f984fb', endColorstr='#00f984fb',GradientType=0 ); /* IE6-9 */
+}
 
 
 /* TOP5 PAGE */
@@ -181,6 +187,7 @@ ul {
   z-index: 60;
 }
 
+/* CONTACT PAGE */
 .social {
     padding: 0;
 }

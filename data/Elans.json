@@ -3,21 +3,21 @@
     {
       "position" : 1,
       "equipe" : "Meudon",
-      "joues" : "3",
-      "points" : "15",
+      "joues" : "4",
+      "points" : "18",
       "gagne" : "3",
-      "nul" : "0",
+      "nul" : "1",
       "perdu" : "0",
-      "diff" : "+15",
+      "diff" : "+13",
       "malus" : "0"
     },
     {
       "position" : 2,
       "equipe" : "Fontenay",
-      "joues" : "2",
-      "points" : "7",
+      "joues" : "3",
+      "points" : "10",
       "gagne" : "1",
-      "nul" : "1",
+      "nul" : "2",
       "perdu" : "0",
       "diff" : "+04",
       "malus" : "-1"

@@ -15,12 +15,12 @@ export default () => {
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <li><Link to="/" activeStyle={{ color: '#f984fb' }}>Home</Link></li>
-                    <li><Link to="/classement" activeStyle={{ color: '#f984fb' }}>Classement</Link></li>
-                    <li><Link to="/stats" activeStyle={{ color: '#f984fb' }}>Stats</Link></li>
-                    <li><Link to="/top5" activeStyle={{ color: '#f984fb' }}>Top 5</Link></li>
+                    <li><Link to="/" activeClassName="active">Home</Link></li>
+                    <li><Link to="/classement" activeClassName="active">Classement</Link></li>
+                    <li><Link to="/stats" activeClassName="active">Stats</Link></li>
+                    <li><Link to="/top5" activeClassName="active">Top 5</Link></li>
                     <li><a href="http://la-gaizette.fr/" target="_blank">La Gaizette</a></li>
-                    <li><Link to="/contact" activeStyle={{ color: '#f984fb' }}>Contact</Link></li>
+                    <li><Link to="/contact" activeClassName="active">Contact</Link></li>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
