@@ -48756,7 +48756,7 @@
 			"diff": "+04",
 			"malus": "-1"
 		}, {
-			"position": 3,
+			"position": 4,
 			"equipe": "Vitry",
 			"joues": "1",
 			"points": "5",
@@ -48766,7 +48766,7 @@
 			"diff": "+02",
 			"malus": "0"
 		}, {
-			"position": 6,
+			"position": 3,
 			"equipe": "F.Volants",
 			"joues": "4",
 			"points": "8",
@@ -48776,7 +48776,7 @@
 			"diff": "-01",
 			"malus": "0"
 		}, {
-			"position": 5,
+			"position": 6,
 			"equipe": "Evry",
 			"joues": "2",
 			"points": "5",
@@ -48796,7 +48796,7 @@
 			"diff": "-14",
 			"malus": "-1"
 		}, {
-			"position": 4,
+			"position": 5,
 			"equipe": "Franconville",
 			"joues": "2",
 			"points": "5",
