@@ -47920,8 +47920,8 @@
 	                    _reactBootstrap.Col,
 	                    { xsHidden: true, smHidden: true },
 	                    _react2.default.createElement(
-	                        'a',
-	                        { href: '#/home' },
+	                        _reactRouter.Link,
+	                        { to: '/' },
 	                        _react2.default.createElement(_reactBootstrap.Image, { className: 'logo', src: '../img/logo.png', alt: 'Les Elans loisirs logo' })
 	                    )
 	                )
@@ -47939,7 +47939,7 @@
 	                    null,
 	                    _react2.default.createElement(
 	                        _reactRouter.Link,
-	                        { to: '/', activeClassName: 'active' },
+	                        { to: '/' },
 	                        'Home'
 	                    )
 	                ),

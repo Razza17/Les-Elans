@@ -8,14 +8,14 @@ export default () => {
             <Navbar.Header>
                 <Navbar.Brand>
                     <Col xsHidden smHidden>
-                        <a href="#/home"><Image className="logo" src="../img/logo.png" alt="Les Elans loisirs logo" /></a>
+                        <Link to="/"><Image className="logo" src="../img/logo.png" alt="Les Elans loisirs logo" /></Link>
                     </Col>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <li><Link to="/" activeClassName="active">Home</Link></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><Link to="/classement" activeClassName="active">Classement</Link></li>
                     <li><Link to="/stats" activeClassName="active">Stats</Link></li>
                     <li><Link to="/top5" activeClassName="active">Top 5</Link></li>
