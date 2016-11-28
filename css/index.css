@@ -3,7 +3,7 @@ html, body {
     height: auto;
     margin: 0;
     padding: 0;
-    background-color: #222;
+    background: url(../img/backgroundHD/contentBG.jpg) no-repeat #222;
     color: #f0ffff;
     font-size: 18px;
 }
@@ -75,6 +75,10 @@ ul {
 
 
 /* HOME PAGE */
+.home{
+    background: url(../img/backgroundHD/contentBG.jpg) no-repeat #222;
+}
+
 .carousel {
     padding-top: 51px;
 }

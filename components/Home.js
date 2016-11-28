@@ -9,15 +9,15 @@ export default () => {
                     <Carousel.Item>
                         <Image src="../img/une/une1.jpg" />
                         <Carousel.Caption>
-                            <h3>Un bon match mais pas suffisant</h3>
-                            <p>Les ELans s'inclinent 6 - 4 face à une bonne équipe de Franconville.</p>
+                            <h3>3ème défaite en 4 matchs pour les roses et bleus</h3>
+                            <p>Les ELans tombent, encore une fois le week end dernier, 7-3 contre les Français Volants</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <Image src="../img/une/une2.jpg" />
                         <Carousel.Caption>
-                            <h3>Dimanche 27 Novembre 21h</h3>
-                            <p>Venez nombreux supporter les roses et bleus lors de leur déplacement à l'Accor Hotel Arena.</p>
+                            <h3>Dimanche 04 Décembre 18h30</h3>
+                            <p>Venez nombreux supporter les roses et bleus pour leur quête de leur première victoire.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -29,7 +29,7 @@ export default () => {
                     </Carousel.Item>
                 </Carousel>
             </Row>
-            <section>
+            <section className="home">
                 <Row>
                     <PageHeader>Bienvenue sur le site des Elans Loisirs</PageHeader>
                     <p>
@@ -55,14 +55,14 @@ export default () => {
 
                 <Row>
                     <Col xs={12} md={5}>
-                        <PageHeader>Dimanche 13 Novembre 18h30</PageHeader>
+                        <PageHeader>Dimanche 04 Décembre 18h30</PageHeader>
                         <Row className="rencontre">
                             <Col xs={12} md={8} mdOffset={2} smOffset={3}>
                                 <Table responsive>
                                     <tr>
-                                        <td><img src="img/logos/logo-paris.png" alt="Les Français Volants" /></td>
-                                        <td>VS</td>
                                         <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
+                                        <td>VS</td>
+                                        <td><img src="img/logos/logo-vitry.png" alt="Les Vikings de Vitry" /></td>
                                     </tr>
                                 </Table>
                             </Col>
@@ -70,14 +70,15 @@ export default () => {
 
                         <Row>
                             <p>
-                                La deuxième journée du trophée loisir de nos Elans seront face aux Pumas de Fontenay. Ce sera leur premier match à domicile alors venez nombreux les encourager.
+                                Avant dernière journée des matchs allé pour nos EG, toujours en quête de leur première victoire dans le championnat.
+                                Venez nombreux les encourager à Champigny le dimanche 04 Décembre à 18h30 !
                             </p>
                         </Row>
                     </Col>
                     <Col xs={12} md={5} mdOffset={1}>
                         <PageHeader>Le dernier article de la Gaizette</PageHeader>
 
-                        <div className="">
+                        <div>
                             <Image src="../img/gaizette/equipe2016.jpg" alt="equipe les elans loisirs" responsive />
                         </div>
 

@@ -34,14 +34,14 @@
       "malus" : "0"
     },
     {
-      "position" : 7,
+      "position" : 6,
       "equipe" : "F.Volants",
-      "joues" : "3",
-      "points" : "3",
-      "gagne" : "0",
+      "joues" : "4",
+      "points" : "8",
+      "gagne" : "1",
       "nul" : "0",
       "perdu" : "3",
-      "diff" : "-05",
+      "diff" : "-01",
       "malus" : "0"
     },
     {
@@ -56,14 +56,14 @@
       "malus" : "-1"
     },
     {
-      "position" : 6,
+      "position" : 7,
       "equipe" : "Champigny",
-      "joues" : "3",
-      "points" : "4",
+      "joues" : "4",
+      "points" : "5",
       "gagne" : "0",
       "nul" : "1",
-      "perdu" : "2",
-      "diff" : "-10",
+      "perdu" : "3",
+      "diff" : "-14",
       "malus" : "-1"
     },
     {

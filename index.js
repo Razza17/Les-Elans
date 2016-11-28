@@ -48034,12 +48034,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'Un bon match mais pas suffisant'
+	                            '3\xE8me d\xE9faite en 4 matchs pour les roses et bleus'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Les ELans s\'inclinent 6 - 4 face \xE0 une bonne \xE9quipe de Franconville.'
+	                            'Les ELans tombent, encore une fois le week end dernier, 7-3 contre les Fran\xE7ais Volants'
 	                        )
 	                    )
 	                ),
@@ -48053,12 +48053,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'Dimanche 27 Novembre 21h'
+	                            'Dimanche 04 D\xE9cembre 18h30'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Venez nombreux supporter les roses et bleus lors de leur d\xE9placement \xE0 l\'Accor Hotel Arena.'
+	                            'Venez nombreux supporter les roses et bleus pour leur qu\xEAte de leur premi\xE8re victoire.'
 	                        )
 	                    )
 	                ),
@@ -48085,7 +48085,7 @@
 	        ),
 	        _react2.default.createElement(
 	            'section',
-	            null,
+	            { className: 'home' },
 	            _react2.default.createElement(
 	                _reactBootstrap.Row,
 	                null,
@@ -48170,7 +48170,7 @@
 	                    _react2.default.createElement(
 	                        _reactBootstrap.PageHeader,
 	                        null,
-	                        'Dimanche 13 Novembre 18h30'
+	                        'Dimanche 04 D\xE9cembre 18h30'
 	                    ),
 	                    _react2.default.createElement(
 	                        _reactBootstrap.Row,
@@ -48187,7 +48187,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        _react2.default.createElement('img', { src: 'img/logos/logo-paris.png', alt: 'Les Fran\xE7ais Volants' })
+	                                        _react2.default.createElement('img', { src: 'img/logos/logo-eg.png', alt: 'Les Elans de Champigny' })
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'td',
@@ -48197,7 +48197,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        _react2.default.createElement('img', { src: 'img/logos/logo-eg.png', alt: 'Les Elans de Champigny' })
+	                                        _react2.default.createElement('img', { src: 'img/logos/logo-vitry.png', alt: 'Les Vikings de Vitry' })
 	                                    )
 	                                )
 	                            )
@@ -48209,7 +48209,7 @@
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'La deuxi\xE8me journ\xE9e du troph\xE9e loisir de nos Elans seront face aux Pumas de Fontenay. Ce sera leur premier match \xE0 domicile alors venez nombreux les encourager.'
+	                            'Avant derni\xE8re journ\xE9e des matchs all\xE9 pour nos EG, toujours en qu\xEAte de leur premi\xE8re victoire dans le championnat. Venez nombreux les encourager \xE0 Champigny le dimanche 04 D\xE9cembre \xE0 18h30 !'
 	                        )
 	                    )
 	                ),
@@ -48223,7 +48223,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
-	                        { className: '' },
+	                        null,
 	                        _react2.default.createElement(_reactBootstrap.Image, { src: '../img/gaizette/equipe2016.jpg', alt: 'equipe les elans loisirs', responsive: true })
 	                    ),
 	                    _react2.default.createElement(
@@ -48537,7 +48537,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        'F.Volants Vs Champigny'
+	                                        'F.Volants 7 - 3 Champigny'
 	                                    )
 	                                ),
 	                                _react2.default.createElement(
@@ -48766,14 +48766,14 @@
 			"diff": "+02",
 			"malus": "0"
 		}, {
-			"position": 7,
+			"position": 6,
 			"equipe": "F.Volants",
-			"joues": "3",
-			"points": "3",
-			"gagne": "0",
+			"joues": "4",
+			"points": "8",
+			"gagne": "1",
 			"nul": "0",
 			"perdu": "3",
-			"diff": "-05",
+			"diff": "-01",
 			"malus": "0"
 		}, {
 			"position": 5,
@@ -48786,14 +48786,14 @@
 			"diff": "-03",
 			"malus": "-1"
 		}, {
-			"position": 6,
+			"position": 7,
 			"equipe": "Champigny",
-			"joues": "3",
-			"points": "4",
+			"joues": "4",
+			"points": "5",
 			"gagne": "0",
 			"nul": "1",
-			"perdu": "2",
-			"diff": "-10",
+			"perdu": "3",
+			"diff": "-14",
 			"malus": "-1"
 		}, {
 			"position": 4,
