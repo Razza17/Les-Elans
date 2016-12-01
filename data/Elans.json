@@ -82,21 +82,21 @@
     {
       "nom" : "Labat",
       "prenom" : "Laurent",
-      "buts" : 2,
+      "buts" : 3,
       "assistes" : 3,
-      "points" : 5,
+      "points" : 6,
       "penalites" : 2,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/louloute.jpg"
     },
     {
       "nom" : "Gachon",
       "prenom" : "Damien",
-      "buts" : 0,
+      "buts" : 1,
       "assistes" : 3,
-      "points" : 3,
+      "points" : 4,
       "penalites" : 4,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/damien.jpg"
     },
     {
@@ -136,7 +136,7 @@
       "assistes" : 0,
       "points" : 0,
       "penalites" : 0,
-      "matchs" : 1,
+      "matchs" : 2,
       "img" : "../img/joueurs/jerome.jpg"
     },
     {
@@ -156,7 +156,7 @@
       "assistes" : 0,
       "points" : 3,
       "penalites" : 0,
-      "matchs" : 2,
+      "matchs" : 3,
       "img" : "../img/joueurs/charly.jpg"
     },
     {
@@ -166,7 +166,7 @@
       "assistes" : 0,
       "points" : 0,
       "penalites" : 4,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/laurent.jpg"
     },
     {
@@ -185,8 +185,8 @@
       "buts" : 4,
       "assistes" : 0,
       "points" : 4,
-      "penalites" : 18,
-      "matchs" : 3,
+      "penalites" : 20,
+      "matchs" : 4,
       "img" : "../img/joueurs/fred.jpg"
     },
     {
@@ -195,8 +195,8 @@
       "buts" : 0,
       "assistes" : 0,
       "points" : 0,
-      "penalites" : 4,
-      "matchs" : 2,
+      "penalites" : 6,
+      "matchs" : 3,
       "img" : "../img/joueurs/yoann.jpg"
     },
     {
@@ -206,17 +206,17 @@
       "assistes" : 1,
       "points" : 1,
       "penalites" : 0,
-      "matchs" : 2,
+      "matchs" : 3,
       "img" : "../img/joueurs/seb.jpg"
     },
     {
       "nom" : "Bouaziz",
       "prenom" : "Vanya",
       "buts" : 0,
-      "assistes" : 1,
-      "points" : 1,
+      "assistes" : 3,
+      "points" : 3,
       "penalites" : 0,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/vanya.jpg"
     },
     {
@@ -225,28 +225,28 @@
       "buts" : 0,
       "assistes" : 0,
       "points" : 0,
-      "penalites" : 2,
-      "matchs" : 3,
+      "penalites" : 4,
+      "matchs" : 4,
       "img" : "../img/joueurs/player.jpg"
     },
     {
       "nom" : "Aghroud",
       "prenom" : "Bachir",
-      "buts" : 2,
+      "buts" : 3,
       "assistes" : 1,
-      "points" : 3,
+      "points" : 4,
       "penalites" : 0,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/player.jpg"
     },
     {
-      "nom" : "Magnen",
+      "nom" : "Magnien",
       "prenom" : "Paul",
       "buts" : 0,
       "assistes" : 3,
       "points" : 3,
       "penalites" : 0,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -256,7 +256,7 @@
       "assistes" : 0,
       "points" : 0,
       "penalites" : 2,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -266,7 +266,7 @@
       "assistes" : 0,
       "points" : 0,
       "penalites" : 0,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -275,6 +275,16 @@
       "buts" : 0,
       "assistes" : 1,
       "points" : 1,
+      "penalites" : 0,
+      "matchs" : 1,
+      "img" : "../img/joueurs/player.jpg"
+    },
+    {
+      "nom" : "Besombes",
+      "prenom" : "Florent",
+      "buts" : 0,
+      "assistes" : 0,
+      "points" : 0,
       "penalites" : 0,
       "matchs" : 1,
       "img" : "../img/joueurs/player.jpg"
