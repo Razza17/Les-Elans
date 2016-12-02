@@ -79,7 +79,7 @@
 	
 	var _Top2 = _interopRequireDefault(_Top);
 	
-	var _Contact = __webpack_require__(/*! ./components/Contact */ 509);
+	var _Contact = __webpack_require__(/*! ./components/Contact */ 510);
 	
 	var _Contact2 = _interopRequireDefault(_Contact);
 	
@@ -48809,20 +48809,20 @@
 		"stats": [{
 			"nom": "Labat",
 			"prenom": "Laurent",
-			"buts": 2,
+			"buts": 3,
 			"assistes": 3,
-			"points": 5,
+			"points": 6,
 			"penalites": 2,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/louloute.jpg"
 		}, {
 			"nom": "Gachon",
 			"prenom": "Damien",
-			"buts": 0,
+			"buts": 1,
 			"assistes": 3,
-			"points": 3,
+			"points": 4,
 			"penalites": 4,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/damien.jpg"
 		}, {
 			"nom": "Chichlo",
@@ -48858,7 +48858,7 @@
 			"assistes": 0,
 			"points": 0,
 			"penalites": 0,
-			"matchs": 1,
+			"matchs": 2,
 			"img": "../img/joueurs/jerome.jpg"
 		}, {
 			"nom": "Renard",
@@ -48876,7 +48876,7 @@
 			"assistes": 0,
 			"points": 3,
 			"penalites": 0,
-			"matchs": 2,
+			"matchs": 3,
 			"img": "../img/joueurs/charly.jpg"
 		}, {
 			"nom": "Chantelard",
@@ -48885,7 +48885,7 @@
 			"assistes": 0,
 			"points": 0,
 			"penalites": 4,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/laurent.jpg"
 		}, {
 			"nom": "Cordon",
@@ -48902,8 +48902,8 @@
 			"buts": 4,
 			"assistes": 0,
 			"points": 4,
-			"penalites": 18,
-			"matchs": 3,
+			"penalites": 20,
+			"matchs": 4,
 			"img": "../img/joueurs/fred.jpg"
 		}, {
 			"nom": "Daudet",
@@ -48911,8 +48911,8 @@
 			"buts": 0,
 			"assistes": 0,
 			"points": 0,
-			"penalites": 4,
-			"matchs": 2,
+			"penalites": 6,
+			"matchs": 3,
 			"img": "../img/joueurs/yoann.jpg"
 		}, {
 			"nom": "Le Dour",
@@ -48921,16 +48921,16 @@
 			"assistes": 1,
 			"points": 1,
 			"penalites": 0,
-			"matchs": 2,
+			"matchs": 3,
 			"img": "../img/joueurs/seb.jpg"
 		}, {
 			"nom": "Bouaziz",
 			"prenom": "Vanya",
 			"buts": 0,
-			"assistes": 1,
-			"points": 1,
+			"assistes": 3,
+			"points": 3,
 			"penalites": 0,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/vanya.jpg"
 		}, {
 			"nom": "Chantelard",
@@ -48938,26 +48938,26 @@
 			"buts": 0,
 			"assistes": 0,
 			"points": 0,
-			"penalites": 2,
-			"matchs": 3,
+			"penalites": 4,
+			"matchs": 4,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Aghroud",
 			"prenom": "Bachir",
-			"buts": 2,
+			"buts": 3,
 			"assistes": 1,
-			"points": 3,
+			"points": 4,
 			"penalites": 0,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/player.jpg"
 		}, {
-			"nom": "Magnen",
+			"nom": "Magnien",
 			"prenom": "Paul",
 			"buts": 0,
 			"assistes": 3,
 			"points": 3,
 			"penalites": 0,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Campos",
@@ -48966,7 +48966,7 @@
 			"assistes": 0,
 			"points": 0,
 			"penalites": 2,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Msika",
@@ -48975,7 +48975,7 @@
 			"assistes": 0,
 			"points": 0,
 			"penalites": 0,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Toublant",
@@ -48983,6 +48983,15 @@
 			"buts": 0,
 			"assistes": 1,
 			"points": 1,
+			"penalites": 0,
+			"matchs": 1,
+			"img": "../img/joueurs/player.jpg"
+		}, {
+			"nom": "Besombes",
+			"prenom": "Florent",
+			"buts": 0,
+			"assistes": 0,
+			"points": 0,
 			"penalites": 0,
 			"matchs": 1,
 			"img": "../img/joueurs/player.jpg"
@@ -49222,6 +49231,10 @@
 	
 	var _Elans2 = _interopRequireDefault(_Elans);
 	
+	var _TopPointsList = __webpack_require__(/*! ./TopPointsList */ 509);
+	
+	var _TopPointsList2 = _interopRequireDefault(_TopPointsList);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -49256,15 +49269,6 @@
 	                return y.assistes - x.assistes;
 	            });
 	            return assiste;
-	        }
-	    }, {
-	        key: 'topPoints',
-	        value: function topPoints() {
-	            var point = _Elans2.default.stats;
-	            point.sort(function compare(x, y) {
-	                return y.points - x.points;
-	            });
-	            return point;
 	        }
 	    }, {
 	        key: 'topPenalite',
@@ -49307,7 +49311,7 @@
 	                                _react2.default.createElement(
 	                                    'div',
 	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topButs()[3].img })
+	                                    _react2.default.createElement('img', { src: this.topButs()[1].img })
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
@@ -49334,7 +49338,7 @@
 	                                _react2.default.createElement(
 	                                    'div',
 	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topButs()[1].img })
+	                                    _react2.default.createElement('img', { src: this.topButs()[2].img })
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
@@ -49388,7 +49392,7 @@
 	                                _react2.default.createElement(
 	                                    'div',
 	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topButs()[2].img })
+	                                    _react2.default.createElement('img', { src: this.topButs()[3].img })
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
@@ -49459,7 +49463,7 @@
 	                                _react2.default.createElement(
 	                                    'div',
 	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topAssist()[3].img })
+	                                    _react2.default.createElement('img', { src: this.topAssist()[1].img })
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
@@ -49486,7 +49490,7 @@
 	                                _react2.default.createElement(
 	                                    'div',
 	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topAssist()[1].img })
+	                                    _react2.default.createElement('img', { src: this.topAssist()[2].img })
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
@@ -49540,7 +49544,7 @@
 	                                _react2.default.createElement(
 	                                    'div',
 	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topAssist()[2].img })
+	                                    _react2.default.createElement('img', { src: this.topAssist()[3].img })
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
@@ -49586,158 +49590,7 @@
 	                        )
 	                    )
 	                ),
-	                _react2.default.createElement(
-	                    _reactBootstrap.Row,
-	                    null,
-	                    _react2.default.createElement(
-	                        _reactBootstrap.Col,
-	                        { xs: 12, md: 8, mdOffset: 2, className: 'top5' },
-	                        _react2.default.createElement(
-	                            _reactBootstrap.PageHeader,
-	                            null,
-	                            'Top 5 des meilleurs pointeurs'
-	                        ),
-	                        _react2.default.createElement(
-	                            'ul',
-	                            null,
-	                            _react2.default.createElement(
-	                                'li',
-	                                null,
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topPosition' },
-	                                    '4\xE8me'
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topPoints()[3].img })
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topTxt' },
-	                                    this.topPoints()[3].prenom,
-	                                    _react2.default.createElement('br', null),
-	                                    this.topPoints()[3].buts + this.topPoints()[3].assistes,
-	                                    ' points pour ',
-	                                    this.topPoints()[3].matchs,
-	                                    ' matchs jou\xE9s',
-	                                    _react2.default.createElement('br', null),
-	                                    'ratio : ',
-	                                    ((this.topPoints()[3].buts + this.topPoints()[3].assistes) / this.topPoints()[3].matchs).toFixed(2)
-	                                )
-	                            ),
-	                            _react2.default.createElement(
-	                                'li',
-	                                null,
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topPosition' },
-	                                    '2nd'
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topPoints()[1].img })
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topTxt' },
-	                                    this.topPoints()[1].prenom,
-	                                    _react2.default.createElement('br', null),
-	                                    this.topPoints()[1].buts + this.topPoints()[1].assistes,
-	                                    ' points pour ',
-	                                    this.topPoints()[1].matchs,
-	                                    ' matchs jou\xE9s',
-	                                    _react2.default.createElement('br', null),
-	                                    'ratio : ',
-	                                    ((this.topPoints()[1].buts + this.topPoints()[1].assistes) / this.topPoints()[1].matchs).toFixed(2)
-	                                )
-	                            ),
-	                            _react2.default.createElement(
-	                                'li',
-	                                null,
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topPosition' },
-	                                    '1er'
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topPoints()[0].img })
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topTxt' },
-	                                    this.topPoints()[0].prenom,
-	                                    _react2.default.createElement('br', null),
-	                                    this.topPoints()[0].buts + this.topPoints()[0].assistes,
-	                                    ' points pour ',
-	                                    this.topPoints()[0].matchs,
-	                                    ' matchs jou\xE9s',
-	                                    _react2.default.createElement('br', null),
-	                                    'ratio : ',
-	                                    ((this.topPoints()[0].buts + this.topPoints()[0].assistes) / this.topPoints()[0].matchs).toFixed(2)
-	                                )
-	                            ),
-	                            _react2.default.createElement(
-	                                'li',
-	                                null,
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topPosition' },
-	                                    '3\xE8me'
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topPoints()[2].img })
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topTxt' },
-	                                    this.topPoints()[2].prenom,
-	                                    _react2.default.createElement('br', null),
-	                                    this.topPoints()[2].buts + this.topPoints()[2].assistes,
-	                                    ' points pour ',
-	                                    this.topPoints()[2].matchs,
-	                                    ' matchs jou\xE9s',
-	                                    _react2.default.createElement('br', null),
-	                                    'ratio : ',
-	                                    ((this.topPoints()[2].buts + this.topPoints()[2].assistes) / this.topPoints()[2].matchs).toFixed(2)
-	                                )
-	                            ),
-	                            _react2.default.createElement(
-	                                'li',
-	                                null,
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topPosition' },
-	                                    '5\xE8me'
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topPoints()[4].img })
-	                                ),
-	                                _react2.default.createElement(
-	                                    'div',
-	                                    { className: 'topTxt' },
-	                                    this.topPoints()[4].prenom,
-	                                    _react2.default.createElement('br', null),
-	                                    this.topPoints()[4].buts + this.topPoints()[4].assistes,
-	                                    ' points pour ',
-	                                    this.topPoints()[4].matchs,
-	                                    ' matchs jou\xE9s',
-	                                    _react2.default.createElement('br', null),
-	                                    'ratio : ',
-	                                    ((this.topPoints()[4].buts + this.topPoints()[4].assistes) / this.topPoints()[4].matchs).toFixed(2)
-	                                )
-	                            )
-	                        )
-	                    )
-	                ),
+	                _react2.default.createElement(_TopPointsList2.default, null),
 	                _react2.default.createElement(
 	                    _reactBootstrap.Row,
 	                    null,
@@ -49901,6 +49754,236 @@
 
 /***/ },
 /* 509 */
+/*!*************************************!*\
+  !*** ./components/TopPointsList.js ***!
+  \*************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactBootstrap = __webpack_require__(/*! react-bootstrap */ 236);
+	
+	var _Elans = __webpack_require__(/*! ../data/Elans.json */ 505);
+	
+	var _Elans2 = _interopRequireDefault(_Elans);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var TopPointsList = function (_Component) {
+	    _inherits(TopPointsList, _Component);
+	
+	    function TopPointsList() {
+	        _classCallCheck(this, TopPointsList);
+	
+	        return _possibleConstructorReturn(this, (TopPointsList.__proto__ || Object.getPrototypeOf(TopPointsList)).apply(this, arguments));
+	    }
+	
+	    _createClass(TopPointsList, [{
+	        key: 'render',
+	        value: function render() {
+	
+	            function topPoints() {
+	
+	                function compare(x, y) {
+	                    return y["points"] - x["points"];
+	                }
+	
+	                var point = _Elans2.default.stats;
+	                point.sort(compare);
+	
+	                return point;
+	            }
+	
+	            var prenom1 = topPoints()[0].prenom;
+	            var prenom2 = topPoints()[1].prenom;
+	            var prenom3 = topPoints()[2].prenom;
+	            var prenom4 = topPoints()[3].prenom;
+	            var prenom5 = topPoints()[4].prenom;
+	
+	            var img1 = topPoints()[0].img;
+	            var img2 = topPoints()[1].img;
+	            var img3 = topPoints()[2].img;
+	            var img4 = topPoints()[3].img;
+	            var img5 = topPoints()[4].img;
+	
+	            return _react2.default.createElement(
+	                _reactBootstrap.Row,
+	                null,
+	                _react2.default.createElement(
+	                    _reactBootstrap.Col,
+	                    { xs: 12, md: 8, mdOffset: 2, className: 'top5' },
+	                    _react2.default.createElement(
+	                        _reactBootstrap.PageHeader,
+	                        null,
+	                        'Top 5 des meilleurs pointeurs'
+	                    ),
+	                    _react2.default.createElement(
+	                        'ul',
+	                        null,
+	                        _react2.default.createElement(
+	                            'li',
+	                            null,
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topPosition' },
+	                                '4\xE8me'
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                null,
+	                                _react2.default.createElement('img', { src: img3 })
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topTxt' },
+	                                prenom4,
+	                                _react2.default.createElement('br', null),
+	                                topPoints()[3].points,
+	                                ' points pour ',
+	                                topPoints()[3].matchs,
+	                                ' matchs jou\xE9s',
+	                                _react2.default.createElement('br', null),
+	                                'ratio : ',
+	                                (topPoints()[3].points / topPoints()[3].matchs).toFixed(2)
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            'li',
+	                            null,
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topPosition' },
+	                                '2nd'
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                null,
+	                                _react2.default.createElement('img', { src: img4 })
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topTxt' },
+	                                prenom2,
+	                                _react2.default.createElement('br', null),
+	                                topPoints()[1].points,
+	                                ' points pour ',
+	                                topPoints()[1].matchs,
+	                                ' matchs jou\xE9s',
+	                                _react2.default.createElement('br', null),
+	                                'ratio : ',
+	                                (topPoints()[1].points / topPoints()[1].matchs).toFixed(2)
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            'li',
+	                            null,
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topPosition' },
+	                                '1er'
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                null,
+	                                _react2.default.createElement('img', { src: img1 })
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topTxt' },
+	                                prenom1,
+	                                _react2.default.createElement('br', null),
+	                                topPoints()[0].points,
+	                                ' points pour ',
+	                                topPoints()[0].matchs,
+	                                ' matchs jou\xE9s',
+	                                _react2.default.createElement('br', null),
+	                                'ratio : ',
+	                                (topPoints()[0].points / topPoints()[0].matchs).toFixed(2)
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            'li',
+	                            null,
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topPosition' },
+	                                '3\xE8me'
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                null,
+	                                _react2.default.createElement('img', { src: img2 })
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topTxt' },
+	                                prenom3,
+	                                _react2.default.createElement('br', null),
+	                                topPoints()[2].points,
+	                                ' points pour ',
+	                                topPoints()[2].matchs,
+	                                ' matchs jou\xE9s',
+	                                _react2.default.createElement('br', null),
+	                                'ratio : ',
+	                                (topPoints()[2].points / topPoints()[2].matchs).toFixed(2)
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            'li',
+	                            null,
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topPosition' },
+	                                '5\xE8me'
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                null,
+	                                _react2.default.createElement('img', { src: img5 })
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'topTxt' },
+	                                prenom5,
+	                                _react2.default.createElement('br', null),
+	                                topPoints()[4].points,
+	                                ' points pour ',
+	                                topPoints()[4].matchs,
+	                                ' matchs jou\xE9s',
+	                                _react2.default.createElement('br', null),
+	                                'ratio : ',
+	                                (topPoints()[4].points / topPoints()[4].matchs).toFixed(2)
+	                            )
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }]);
+	
+	    return TopPointsList;
+	}(_react.Component);
+	
+	exports.default = TopPointsList;
+
+/***/ },
+/* 510 */
 /*!*******************************!*\
   !*** ./components/Contact.js ***!
   \*******************************/

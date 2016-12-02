@@ -8,7 +8,7 @@ export default class TopPointsList extends Component {
         function topPoints() {
 
             function compare(x,y) {
-                return y.points - x.points;
+                return y["points"] - x["points"];
             }
 
             let point = Elans.stats;
@@ -28,10 +28,6 @@ export default class TopPointsList extends Component {
         let img3 = topPoints()[2].img;
         let img4 = topPoints()[3].img;
         let img5 = topPoints()[4].img;
-
-        console.log(topPoints());
-        console.log(prenom1,prenom2,prenom3,prenom4,prenom5);
-        console.log(img1,img2,img3,img4,img5);
 
         return (
             <Row>
