@@ -9,15 +9,15 @@ export default () => {
                     <Carousel.Item>
                         <Image src="../img/une/une1.jpg" />
                         <Carousel.Caption>
-                            <h3>3ème défaite en 4 matchs pour les roses et bleus</h3>
-                            <p>Les ELans tombent, encore une fois le week end dernier, 7-3 contre les Français Volants</p>
+                            <h3>Toujours pas de victoire pour les roses et bleus</h3>
+                            <p>Les ELans s'écroulent 7-4 face à une équipe de Vitry peu convaincante</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <Image src="../img/une/une2.jpg" />
                         <Carousel.Caption>
-                            <h3>Dimanche 04 Décembre 18h30</h3>
-                            <p>Venez nombreux supporter les roses et bleus pour leur quête de leur première victoire.</p>
+                            <h3>Dimanche 18 Décembre 18h15</h3>
+                            <p>Dernier match aller pour nos Elans loisir. Rendez-vous à la patinoire d'Evry à 18h15.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -57,12 +57,12 @@ export default () => {
                     <Col xs={12} md={5}>
                         <PageHeader>Dimanche 04 Décembre 18h30</PageHeader>
                         <Row className="rencontre">
-                            <Col xs={12} md={8} mdOffset={2} smOffset={3}>
+                            <Col xs={12} md={8} mdOffset={2}>
                                 <Table responsive>
                                     <tr>
-                                        <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
+                                        <td><img src="img/logos/logo-evry-viry.png" alt="Evry-Viry" /></td>
                                         <td>VS</td>
-                                        <td><img src="img/logos/logo-vitry.png" alt="Les Vikings de Vitry" /></td>
+                                        <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
                                     </tr>
                                 </Table>
                             </Col>

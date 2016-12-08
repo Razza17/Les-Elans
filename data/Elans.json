@@ -3,71 +3,71 @@
     {
       "position" : 1,
       "equipe" : "Meudon",
-      "joues" : "4",
-      "points" : "18",
+      "joues" : "5",
+      "points" : "21",
       "gagne" : "3",
-      "nul" : "1",
+      "nul" : "2",
       "perdu" : "0",
       "diff" : "+13",
       "malus" : "0"
     },
     {
-      "position" : 2,
+      "position" : 3,
       "equipe" : "Fontenay",
-      "joues" : "3",
+      "joues" : "4",
       "points" : "10",
       "gagne" : "1",
       "nul" : "2",
-      "perdu" : "0",
-      "diff" : "+04",
-      "malus" : "-1"
+      "perdu" : "1",
+      "diff" : "+02",
+      "malus" : "-2"
     },
     {
       "position" : 4,
       "equipe" : "Vitry",
-      "joues" : "1",
-      "points" : "5",
-      "gagne" : "1",
+      "joues" : "2",
+      "points" : "9",
+      "gagne" : "2",
       "nul" : "0",
       "perdu" : "0",
-      "diff" : "+02",
-      "malus" : "0"
+      "diff" : "+05",
+      "malus" : "-1"
     },
     {
-      "position" : 3,
+      "position" : 2,
       "equipe" : "F.Volants",
-      "joues" : "4",
-      "points" : "8",
-      "gagne" : "1",
+      "joues" : "5",
+      "points" : "12",
+      "gagne" : "2",
       "nul" : "0",
       "perdu" : "3",
-      "diff" : "-01",
-      "malus" : "0"
+      "diff" : "+01",
+      "malus" : "-1"
     },
     {
-      "position" : 6,
+      "position" : 5,
       "equipe" : "Evry",
-      "joues" : "2",
-      "points" : "5",
+      "joues" : "3",
+      "points" : "8",
       "gagne" : "1",
-      "nul" : "0",
+      "nul" : "1",
       "perdu" : "1",
       "diff" : "-03",
       "malus" : "-1"
     },
     {
-      "position" : 7,
+      "position" : 6,
       "equipe" : "Champigny",
-      "joues" : "4",
-      "points" : "5",
+      "joues" : "5",
+      "points" : "6",
       "gagne" : "0",
       "nul" : "1",
-      "perdu" : "3",
-      "diff" : "-14",
+      "perdu" : "4",
+      "diff" : "-17",
       "malus" : "-1"
     },
     {
-      "position" : 5,
+      "position" : 7,
       "equipe" : "Franconville",
       "joues" : "2",
       "points" : "5",
@@ -82,32 +82,22 @@
     {
       "nom" : "Labat",
       "prenom" : "Laurent",
-      "buts" : 3,
+      "buts" : 4,
       "assistes" : 3,
-      "points" : 6,
+      "points" : 7,
       "penalites" : 2,
-      "matchs" : 4,
+      "matchs" : 5,
       "img" : "../img/joueurs/louloute.jpg"
     },
     {
       "nom" : "Gachon",
       "prenom" : "Damien",
-      "buts" : 1,
+      "buts" : 2,
       "assistes" : 3,
-      "points" : 4,
-      "penalites" : 4,
-      "matchs" : 4,
+      "points" : 5,
+      "penalites" : 6,
+      "matchs" : 5,
       "img" : "../img/joueurs/damien.jpg"
-    },
-    {
-      "nom" : "Chichlo",
-      "prenom" : "Paul",
-      "buts" : 0,
-      "assistes" : 0,
-      "points" : 0,
-      "penalites" : 0,
-      "matchs" : 0,
-      "img" : "../img/joueurs/paul.jpg"
     },
     {
       "nom" : "Gravier",
@@ -116,7 +106,7 @@
       "assistes" : 0,
       "points" : 1,
       "penalites" : 0,
-      "matchs" : 2,
+      "matchs" : 3,
       "img" : "../img/joueurs/fabrice.jpg"
     },
     {
@@ -140,16 +130,6 @@
       "img" : "../img/joueurs/jerome.jpg"
     },
     {
-      "nom" : "Renard",
-      "prenom" : "Fabien",
-      "buts" : 0,
-      "assistes" : 0,
-      "points" : 0,
-      "penalites" : 0,
-      "matchs" : 0,
-      "img" : "../img/joueurs/fabien.jpg"
-    },
-    {
       "nom" : "Ollivier",
       "prenom" : "Charly",
       "buts" : 3,
@@ -163,10 +143,10 @@
       "nom" : "Chantelard",
       "prenom" : "Laurent",
       "buts" : 0,
-      "assistes" : 0,
-      "points" : 0,
+      "assistes" : 1,
+      "points" : 1,
       "penalites" : 4,
-      "matchs" : 4,
+      "matchs" : 5,
       "img" : "../img/joueurs/laurent.jpg"
     },
     {
@@ -175,8 +155,8 @@
       "buts" : 1,
       "assistes" : 1,
       "points" : 2,
-      "penalites" : 12,
-      "matchs" : 3,
+      "penalites" : 14,
+      "matchs" : 4,
       "img" : "../img/joueurs/fab.jpg"
     },
     {
@@ -186,7 +166,7 @@
       "assistes" : 0,
       "points" : 4,
       "penalites" : 20,
-      "matchs" : 4,
+      "matchs" : 5,
       "img" : "../img/joueurs/fred.jpg"
     },
     {
@@ -206,7 +186,7 @@
       "assistes" : 1,
       "points" : 1,
       "penalites" : 0,
-      "matchs" : 3,
+      "matchs" : 4,
       "img" : "../img/joueurs/seb.jpg"
     },
     {
@@ -216,7 +196,7 @@
       "assistes" : 3,
       "points" : 3,
       "penalites" : 0,
-      "matchs" : 4,
+      "matchs" : 5,
       "img" : "../img/joueurs/vanya.jpg"
     },
     {
@@ -226,17 +206,17 @@
       "assistes" : 0,
       "points" : 0,
       "penalites" : 4,
-      "matchs" : 4,
+      "matchs" : 5,
       "img" : "../img/joueurs/player.jpg"
     },
     {
       "nom" : "Aghroud",
       "prenom" : "Bachir",
-      "buts" : 3,
+      "buts" : 4,
       "assistes" : 1,
-      "points" : 4,
-      "penalites" : 0,
-      "matchs" : 4,
+      "points" : 5,
+      "penalites" : 2,
+      "matchs" : 5,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -246,7 +226,7 @@
       "assistes" : 3,
       "points" : 3,
       "penalites" : 0,
-      "matchs" : 4,
+      "matchs" : 5,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -255,18 +235,18 @@
       "buts" : 0,
       "assistes" : 0,
       "points" : 0,
-      "penalites" : 2,
-      "matchs" : 4,
+      "penalites" : 4,
+      "matchs" : 5,
       "img" : "../img/joueurs/player.jpg"
     },
     {
       "nom" : "Msika",
       "prenom" : "Mikhael",
       "buts" : 0,
-      "assistes" : 0,
-      "points" : 0,
-      "penalites" : 0,
-      "matchs" : 4,
+      "assistes" : 1,
+      "points" : 1,
+      "penalites" : 2,
+      "matchs" : 5,
       "img" : "../img/joueurs/player.jpg"
     },
     {
@@ -282,11 +262,11 @@
     {
       "nom" : "Besombes",
       "prenom" : "Florent",
-      "buts" : 0,
+      "buts" : 1,
       "assistes" : 0,
-      "points" : 0,
-      "penalites" : 0,
-      "matchs" : 1,
+      "points" : 1,
+      "penalites" : 2,
+      "matchs" : 2,
       "img" : "../img/joueurs/player.jpg"
     }
   ]

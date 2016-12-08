@@ -21,6 +21,14 @@ export default class Top5 extends Component {
         return assiste;
     }
 
+    topPoint() {
+        let point = Elans.stats;
+        point.sort(function compare(x,y) {
+            return y.points - x.points;
+        });
+        return point;
+    }
+
     topPenalite() {
         let penalite = Elans.stats;
         penalite.sort(function compare(x,y) {
@@ -38,7 +46,7 @@ export default class Top5 extends Component {
                         <ul>
                             <li>
                                 <div className="topPosition">4ème</div>
-                                <div><img src={this.topButs()[1].img} /></div>
+                                <div><img src={this.topButs()[3].img} /></div>
                                 <div className="topTxt">
                                     {this.topButs()[3].prenom}
                                     <br />{this.topButs()[3].buts} buts pour {this.topButs()[3].matchs} matchs joués
@@ -65,7 +73,7 @@ export default class Top5 extends Component {
                             </li>
                             <li>
                                 <div className="topPosition">3ème</div>
-                                <div><img src={this.topButs()[3].img} /></div>
+                                <div><img src={this.topButs()[1].img} /></div>
                                 <div className="topTxt">
                                     {this.topButs()[2].prenom}
                                     <br />{this.topButs()[2].buts} buts pour {this.topButs()[2].matchs} matchs joués
@@ -136,7 +144,58 @@ export default class Top5 extends Component {
                         </ul>
                     </Col>
                 </Row>
-                <TopPointsList />
+                <Row>
+                    <Col xs={12} md={8} mdOffset={2} className="top5">
+                        <PageHeader>Top 5 des meilleurs pointeurs</PageHeader>
+                        <ul>
+                            <li>
+                                <div className="topPosition">4ème</div>
+                                <div><img src={this.topPoint()[3].img} /></div>
+                                <div className="topTxt">
+                                    {this.topPoint()[3].prenom}
+                                    <br />{this.topPoint()[3].points} points pour {this.topPoint()[3].matchs} matchs joués
+                                    <br />ratio : {(this.topPoint()[3].points / this.topPoint()[3].matchs).toFixed(2)}
+                                </div>
+                            </li>
+                            <li>
+                                <div className="topPosition">2nd</div>
+                                <div><img src={this.topPoint()[2].img} /></div>
+                                <div className="topTxt">
+                                    {this.topPoint()[1].prenom}
+                                    <br />{this.topPoint()[1].points} points pour {this.topPoint()[1].matchs} matchs joués
+                                    <br />ratio : {(this.topPoint()[1].points / this.topPoint()[1].matchs).toFixed(2)}
+                                </div>
+                            </li>
+                            <li>
+                                <div className="topPosition">1er</div>
+                                <div><img src={this.topPoint()[0].img} /></div>
+                                <div className="topTxt">
+                                    {this.topPoint()[0].prenom}
+                                    <br />{this.topPoint()[0].points} points pour {this.topPoint()[0].matchs} matchs joués
+                                    <br />ratio : {(this.topPoint()[0].points / this.topPoint()[0].matchs).toFixed(2)}
+                                </div>
+                            </li>
+                            <li>
+                                <div className="topPosition">3ème</div>
+                                <div><img src={this.topPoint()[1].img} /></div>
+                                <div className="topTxt">
+                                    {this.topPoint()[2].prenom}
+                                    <br />{this.topPoint()[2].points} points pour {this.topPoint()[2].matchs} matchs joués
+                                    <br />ratio : {(this.topPoint()[2].points / this.topPoint()[2].matchs).toFixed(2)}
+                                </div>
+                            </li>
+                            <li>
+                                <div className="topPosition">5ème</div>
+                                <div><img src={this.topPoint()[4].img} /></div>
+                                <div className="topTxt">
+                                    {this.topPoint()[4].prenom}
+                                    <br />{this.topPoint()[4].points} points pour {this.topPoint()[4].matchs} matchs joués
+                                    <br />ratio : {(this.topPoint()[4].points / this.topPoint()[4].matchs).toFixed(2)}
+                                </div>
+                            </li>
+                        </ul>
+                    </Col>
+                </Row>
                 <Row>
                     <Col xs={12} md={8} mdOffset={2} className="top5">
                         <PageHeader>Top 5 des plus pénalisés</PageHeader>

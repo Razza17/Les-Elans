@@ -48034,12 +48034,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '3\xE8me d\xE9faite en 4 matchs pour les roses et bleus'
+	                            'Toujours pas de victoire pour les roses et bleus'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Les ELans tombent, encore une fois le week end dernier, 7-3 contre les Fran\xE7ais Volants'
+	                            'Les ELans s\'\xE9croulent 7-4 face \xE0 une \xE9quipe de Vitry peu convaincante'
 	                        )
 	                    )
 	                ),
@@ -48053,12 +48053,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'Dimanche 04 D\xE9cembre 18h30'
+	                            'Dimanche 18 D\xE9cembre 18h15'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Venez nombreux supporter les roses et bleus pour leur qu\xEAte de leur premi\xE8re victoire.'
+	                            'Dernier match aller pour nos Elans loisir. Rendez-vous \xE0 la patinoire d\'Evry \xE0 18h15.'
 	                        )
 	                    )
 	                ),
@@ -48177,7 +48177,7 @@
 	                        { className: 'rencontre' },
 	                        _react2.default.createElement(
 	                            _reactBootstrap.Col,
-	                            { xs: 12, md: 8, mdOffset: 2, smOffset: 3 },
+	                            { xs: 12, md: 8, mdOffset: 2 },
 	                            _react2.default.createElement(
 	                                _reactBootstrap.Table,
 	                                { responsive: true },
@@ -48187,7 +48187,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        _react2.default.createElement('img', { src: 'img/logos/logo-eg.png', alt: 'Les Elans de Champigny' })
+	                                        _react2.default.createElement('img', { src: 'img/logos/logo-evry-viry.png', alt: 'Evry-Viry' })
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'td',
@@ -48197,7 +48197,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        _react2.default.createElement('img', { src: 'img/logos/logo-vitry.png', alt: 'Les Vikings de Vitry' })
+	                                        _react2.default.createElement('img', { src: 'img/logos/logo-eg.png', alt: 'Les Elans de Champigny' })
 	                                    )
 	                                )
 	                            )
@@ -48551,7 +48551,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        'Champigny Vs Vitry'
+	                                        'Champigny 4 - 7 Vitry'
 	                                    )
 	                                ),
 	                                _react2.default.createElement(
@@ -48738,65 +48738,65 @@
 		"classement": [{
 			"position": 1,
 			"equipe": "Meudon",
-			"joues": "4",
-			"points": "18",
+			"joues": "5",
+			"points": "21",
 			"gagne": "3",
-			"nul": "1",
+			"nul": "2",
 			"perdu": "0",
 			"diff": "+13",
 			"malus": "0"
 		}, {
-			"position": 2,
+			"position": 3,
 			"equipe": "Fontenay",
-			"joues": "3",
+			"joues": "4",
 			"points": "10",
 			"gagne": "1",
 			"nul": "2",
-			"perdu": "0",
-			"diff": "+04",
-			"malus": "-1"
+			"perdu": "1",
+			"diff": "+02",
+			"malus": "-2"
 		}, {
 			"position": 4,
 			"equipe": "Vitry",
-			"joues": "1",
-			"points": "5",
-			"gagne": "1",
+			"joues": "2",
+			"points": "9",
+			"gagne": "2",
 			"nul": "0",
 			"perdu": "0",
-			"diff": "+02",
-			"malus": "0"
+			"diff": "+05",
+			"malus": "-1"
 		}, {
-			"position": 3,
+			"position": 2,
 			"equipe": "F.Volants",
-			"joues": "4",
-			"points": "8",
-			"gagne": "1",
+			"joues": "5",
+			"points": "12",
+			"gagne": "2",
 			"nul": "0",
 			"perdu": "3",
-			"diff": "-01",
-			"malus": "0"
+			"diff": "+01",
+			"malus": "-1"
 		}, {
-			"position": 6,
+			"position": 5,
 			"equipe": "Evry",
-			"joues": "2",
-			"points": "5",
+			"joues": "3",
+			"points": "8",
 			"gagne": "1",
-			"nul": "0",
+			"nul": "1",
 			"perdu": "1",
 			"diff": "-03",
 			"malus": "-1"
 		}, {
-			"position": 7,
+			"position": 6,
 			"equipe": "Champigny",
-			"joues": "4",
-			"points": "5",
+			"joues": "5",
+			"points": "6",
 			"gagne": "0",
 			"nul": "1",
-			"perdu": "3",
-			"diff": "-14",
+			"perdu": "4",
+			"diff": "-17",
 			"malus": "-1"
 		}, {
-			"position": 5,
+			"position": 7,
 			"equipe": "Franconville",
 			"joues": "2",
 			"points": "5",
@@ -48809,30 +48809,21 @@
 		"stats": [{
 			"nom": "Labat",
 			"prenom": "Laurent",
-			"buts": 3,
+			"buts": 4,
 			"assistes": 3,
-			"points": 6,
+			"points": 7,
 			"penalites": 2,
-			"matchs": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/louloute.jpg"
 		}, {
 			"nom": "Gachon",
 			"prenom": "Damien",
-			"buts": 1,
+			"buts": 2,
 			"assistes": 3,
-			"points": 4,
-			"penalites": 4,
-			"matchs": 4,
+			"points": 5,
+			"penalites": 6,
+			"matchs": 5,
 			"img": "../img/joueurs/damien.jpg"
-		}, {
-			"nom": "Chichlo",
-			"prenom": "Paul",
-			"buts": 0,
-			"assistes": 0,
-			"points": 0,
-			"penalites": 0,
-			"matchs": 0,
-			"img": "../img/joueurs/paul.jpg"
 		}, {
 			"nom": "Gravier",
 			"prenom": "Fabrice",
@@ -48840,7 +48831,7 @@
 			"assistes": 0,
 			"points": 1,
 			"penalites": 0,
-			"matchs": 2,
+			"matchs": 3,
 			"img": "../img/joueurs/fabrice.jpg"
 		}, {
 			"nom": "Renard",
@@ -48861,15 +48852,6 @@
 			"matchs": 2,
 			"img": "../img/joueurs/jerome.jpg"
 		}, {
-			"nom": "Renard",
-			"prenom": "Fabien",
-			"buts": 0,
-			"assistes": 0,
-			"points": 0,
-			"penalites": 0,
-			"matchs": 0,
-			"img": "../img/joueurs/fabien.jpg"
-		}, {
 			"nom": "Ollivier",
 			"prenom": "Charly",
 			"buts": 3,
@@ -48882,10 +48864,10 @@
 			"nom": "Chantelard",
 			"prenom": "Laurent",
 			"buts": 0,
-			"assistes": 0,
-			"points": 0,
+			"assistes": 1,
+			"points": 1,
 			"penalites": 4,
-			"matchs": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/laurent.jpg"
 		}, {
 			"nom": "Cordon",
@@ -48893,8 +48875,8 @@
 			"buts": 1,
 			"assistes": 1,
 			"points": 2,
-			"penalites": 12,
-			"matchs": 3,
+			"penalites": 14,
+			"matchs": 4,
 			"img": "../img/joueurs/fab.jpg"
 		}, {
 			"nom": "Florchinger",
@@ -48903,7 +48885,7 @@
 			"assistes": 0,
 			"points": 4,
 			"penalites": 20,
-			"matchs": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/fred.jpg"
 		}, {
 			"nom": "Daudet",
@@ -48921,7 +48903,7 @@
 			"assistes": 1,
 			"points": 1,
 			"penalites": 0,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/seb.jpg"
 		}, {
 			"nom": "Bouaziz",
@@ -48930,7 +48912,7 @@
 			"assistes": 3,
 			"points": 3,
 			"penalites": 0,
-			"matchs": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/vanya.jpg"
 		}, {
 			"nom": "Chantelard",
@@ -48939,16 +48921,16 @@
 			"assistes": 0,
 			"points": 0,
 			"penalites": 4,
-			"matchs": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Aghroud",
 			"prenom": "Bachir",
-			"buts": 3,
+			"buts": 4,
 			"assistes": 1,
-			"points": 4,
-			"penalites": 0,
-			"matchs": 4,
+			"points": 5,
+			"penalites": 2,
+			"matchs": 5,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Magnien",
@@ -48957,7 +48939,7 @@
 			"assistes": 3,
 			"points": 3,
 			"penalites": 0,
-			"matchs": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Campos",
@@ -48965,17 +48947,17 @@
 			"buts": 0,
 			"assistes": 0,
 			"points": 0,
-			"penalites": 2,
-			"matchs": 4,
+			"penalites": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Msika",
 			"prenom": "Mikhael",
 			"buts": 0,
-			"assistes": 0,
-			"points": 0,
-			"penalites": 0,
-			"matchs": 4,
+			"assistes": 1,
+			"points": 1,
+			"penalites": 2,
+			"matchs": 5,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Toublant",
@@ -48989,11 +48971,11 @@
 		}, {
 			"nom": "Besombes",
 			"prenom": "Florent",
-			"buts": 0,
+			"buts": 1,
 			"assistes": 0,
-			"points": 0,
-			"penalites": 0,
-			"matchs": 1,
+			"points": 1,
+			"penalites": 2,
+			"matchs": 2,
 			"img": "../img/joueurs/player.jpg"
 		}]
 	};
@@ -49271,6 +49253,15 @@
 	            return assiste;
 	        }
 	    }, {
+	        key: 'topPoint',
+	        value: function topPoint() {
+	            var point = _Elans2.default.stats;
+	            point.sort(function compare(x, y) {
+	                return y.points - x.points;
+	            });
+	            return point;
+	        }
+	    }, {
 	        key: 'topPenalite',
 	        value: function topPenalite() {
 	            var penalite = _Elans2.default.stats;
@@ -49311,7 +49302,7 @@
 	                                _react2.default.createElement(
 	                                    'div',
 	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topButs()[1].img })
+	                                    _react2.default.createElement('img', { src: this.topButs()[3].img })
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
@@ -49392,7 +49383,7 @@
 	                                _react2.default.createElement(
 	                                    'div',
 	                                    null,
-	                                    _react2.default.createElement('img', { src: this.topButs()[3].img })
+	                                    _react2.default.createElement('img', { src: this.topButs()[1].img })
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
@@ -49590,7 +49581,158 @@
 	                        )
 	                    )
 	                ),
-	                _react2.default.createElement(_TopPointsList2.default, null),
+	                _react2.default.createElement(
+	                    _reactBootstrap.Row,
+	                    null,
+	                    _react2.default.createElement(
+	                        _reactBootstrap.Col,
+	                        { xs: 12, md: 8, mdOffset: 2, className: 'top5' },
+	                        _react2.default.createElement(
+	                            _reactBootstrap.PageHeader,
+	                            null,
+	                            'Top 5 des meilleurs pointeurs'
+	                        ),
+	                        _react2.default.createElement(
+	                            'ul',
+	                            null,
+	                            _react2.default.createElement(
+	                                'li',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topPosition' },
+	                                    '4\xE8me'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    null,
+	                                    _react2.default.createElement('img', { src: this.topPoint()[3].img })
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topTxt' },
+	                                    this.topPoint()[3].prenom,
+	                                    _react2.default.createElement('br', null),
+	                                    this.topPoint()[3].points,
+	                                    ' points pour ',
+	                                    this.topPoint()[3].matchs,
+	                                    ' matchs jou\xE9s',
+	                                    _react2.default.createElement('br', null),
+	                                    'ratio : ',
+	                                    (this.topPoint()[3].points / this.topPoint()[3].matchs).toFixed(2)
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                'li',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topPosition' },
+	                                    '2nd'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    null,
+	                                    _react2.default.createElement('img', { src: this.topPoint()[2].img })
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topTxt' },
+	                                    this.topPoint()[1].prenom,
+	                                    _react2.default.createElement('br', null),
+	                                    this.topPoint()[1].points,
+	                                    ' points pour ',
+	                                    this.topPoint()[1].matchs,
+	                                    ' matchs jou\xE9s',
+	                                    _react2.default.createElement('br', null),
+	                                    'ratio : ',
+	                                    (this.topPoint()[1].points / this.topPoint()[1].matchs).toFixed(2)
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                'li',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topPosition' },
+	                                    '1er'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    null,
+	                                    _react2.default.createElement('img', { src: this.topPoint()[0].img })
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topTxt' },
+	                                    this.topPoint()[0].prenom,
+	                                    _react2.default.createElement('br', null),
+	                                    this.topPoint()[0].points,
+	                                    ' points pour ',
+	                                    this.topPoint()[0].matchs,
+	                                    ' matchs jou\xE9s',
+	                                    _react2.default.createElement('br', null),
+	                                    'ratio : ',
+	                                    (this.topPoint()[0].points / this.topPoint()[0].matchs).toFixed(2)
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                'li',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topPosition' },
+	                                    '3\xE8me'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    null,
+	                                    _react2.default.createElement('img', { src: this.topPoint()[1].img })
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topTxt' },
+	                                    this.topPoint()[2].prenom,
+	                                    _react2.default.createElement('br', null),
+	                                    this.topPoint()[2].points,
+	                                    ' points pour ',
+	                                    this.topPoint()[2].matchs,
+	                                    ' matchs jou\xE9s',
+	                                    _react2.default.createElement('br', null),
+	                                    'ratio : ',
+	                                    (this.topPoint()[2].points / this.topPoint()[2].matchs).toFixed(2)
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                'li',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topPosition' },
+	                                    '5\xE8me'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    null,
+	                                    _react2.default.createElement('img', { src: this.topPoint()[4].img })
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'topTxt' },
+	                                    this.topPoint()[4].prenom,
+	                                    _react2.default.createElement('br', null),
+	                                    this.topPoint()[4].points,
+	                                    ' points pour ',
+	                                    this.topPoint()[4].matchs,
+	                                    ' matchs jou\xE9s',
+	                                    _react2.default.createElement('br', null),
+	                                    'ratio : ',
+	                                    (this.topPoint()[4].points / this.topPoint()[4].matchs).toFixed(2)
+	                                )
+	                            )
+	                        )
+	                    )
+	                ),
 	                _react2.default.createElement(
 	                    _reactBootstrap.Row,
 	                    null,
