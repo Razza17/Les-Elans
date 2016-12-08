@@ -1,53 +1,61 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Row, Col, PageHeader } from 'react-bootstrap'
 
-export default ({img, prenom, points, matchs}) => {
-    return (
-        <ul>
-            <li>
-                <div className="topPosition">4ème</div>
-                <div><img src={img[3]} /></div>
-                <div className="topTxt">
-                    {prenom[3]}
-                    <br />{points[3]} points pour {matchs[3]} matchs joués
-                    <br />ratio : {(points[3] / matchs[3]).toFixed(2)}
-                </div>
-            </li>
-            <li>
-                <div className="topPosition">4ème</div>
-                <div><img src={img[1]} /></div>
-                <div className="topTxt">
-                    {prenom[1]}
-                    <br />{points[1]} points pour {matchs[1]} matchs joués
-                    <br />ratio : {(points[1] / matchs[1]).toFixed(2)}
-                </div>
-            </li>
-            <li>
-                <div className="topPosition">4ème</div>
-                <div><img src={img[0]} /></div>
-                <div className="topTxt">
-                    {prenom[0]}
-                    <br />{points[0]} points pour {matchs[0]} matchs joués
-                    <br />ratio : {(points[0] / matchs[0]).toFixed(2)}
-                </div>
-            </li>
-            <li>
-                <div className="topPosition">4ème</div>
-                <div><img src={img[2]} /></div>
-                <div className="topTxt">
-                    {prenom[2]}
-                    <br />{points[2]} points pour {matchs[2]} matchs joués
-                    <br />ratio : {(points[2] / matchs[2]).toFixed(2)}
-                </div>
-            </li>
-            <li>
-                <div className="topPosition">4ème</div>
-                <div><img src={img[4]} /></div>
-                <div className="topTxt">
-                    {prenom[4]}
-                    <br />{points[4]} points pour {matchs[4]} matchs joués
-                    <br />ratio : {(points[4] / matchs[4]).toFixed(2)}
-                </div>
-            </li>
-        </ul>
-    );
+export default class TopPoints extends Component {
+    render() {
+        return (
+            <Row>
+                <Col xs={12} md={8} mdOffset={2} className="top5">
+                    <PageHeader>Top 5 des meilleurs pointeurs</PageHeader>
+                    <ul>
+                        <li>
+                            <div className="topPosition">4ème</div>
+                            <div><img src={this.props.points[3].img} /></div>
+                            <div className="topTxt">
+                                {this.props.points[3].prenom}
+                                <br />{this.props.points[3].points} points pour {this.props.points[3].matchs} matchs joués
+                                <br />ratio : {((this.props.points[3].points) / this.props.points[3].matchs).toFixed(2)}
+                            </div>
+                        </li>
+                        <li>
+                            <div className="topPosition">2nd</div>
+                            <div><img src={this.props.points[1].img} /></div>
+                            <div className="topTxt">
+                                {this.props.points[1].prenom}
+                                <br />{this.props.points[1].points} points pour {this.props.points[1].matchs} matchs joués
+                                <br />ratio : {((this.props.points[1].points) / this.props.points[1].matchs).toFixed(2)}
+                            </div>
+                        </li>
+                        <li>
+                            <div className="topPosition">1er</div>
+                            <div><img src={this.props.points[0].img} /></div>
+                            <div className="topTxt">
+                                {this.props.points[0].prenom}
+                                <br />{this.props.points[0].points} points pour {this.props.points[0].matchs} matchs joués
+                                <br />ratio : {((this.props.points[0].points) / this.props.points[0].matchs).toFixed(2)}
+                            </div>
+                        </li>
+                        <li>
+                            <div className="topPosition">3ème</div>
+                            <div><img src={this.props.points[2].img} /></div>
+                            <div className="topTxt">
+                                {this.props.points[2].prenom}
+                                <br />{this.props.points[2].points} points pour {this.props.points[2].matchs} matchs joués
+                                <br />ratio : {((this.props.points[2].points) / this.props.points[2].matchs).toFixed(2)}
+                            </div>
+                        </li>
+                        <li>
+                            <div className="topPosition">5ème</div>
+                            <div><img src={this.props.points[4].img} /></div>
+                            <div className="topTxt">
+                                {this.props.points[4].prenom}
+                                <br />{this.props.points[4].points} points pour {this.props.points[4].matchs} matchs joués
+                                <br />ratio : {((this.props.points[4].points) / this.props.points[4].matchs).toFixed(2)}
+                            </div>
+                        </li>
+                    </ul>
+                </Col>
+            </Row>
+        );
+    }
 }
