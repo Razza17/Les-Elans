@@ -47,6 +47,11 @@ html, body {
     padding-right: 0;
 }
 
+.content {
+    position: relative;
+    top: 51px;
+}
+
 h2 {
     color: #f984fb !important;
 }
@@ -79,10 +84,6 @@ ul {
     background: url(../img/backgroundHD/contentBG.jpg) no-repeat #222;
 }
 
-.carousel {
-    padding-top: 51px;
-}
-
 .photo ul li {
     display: inline-block;
     margin: 0 20px;
@@ -90,6 +91,20 @@ ul {
 
 .rencontre Table tr td:last-child {
     text-align: right;
+}
+
+/* PHOTOS PAGE */
+.panel {
+    border: none;
+}
+
+.panel-body {
+    background-color: #222;
+    border: 1px solid #2e2e2e;
+}
+
+.panel-body ul li {
+    padding-bottom: 20px;
 }
 
 

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 import App from './App'
 import Home from './components/Home'
+import Photos from './components/Photos'
 import Classement from './components/Classement'
 import Stats from './components/Stats'
 import Top5 from './components/Top5'
@@ -12,6 +13,7 @@ ReactDOM.render((
     <Router history={hashHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={Home} />
+            <Route path="/photos" component={Photos} />
             <Route path="/classement" component={Classement} />
             <Route path="/stats" component={Stats} />
             <Route path="/top5" component={Top5} />

@@ -16,6 +16,7 @@ export default () => {
             <Navbar.Collapse>
                 <Nav>
                     <li><Link to="/">Home</Link></li>
+                    <li><Link to="/photos" activeClassName="active">Photos</Link></li>
                     <li><Link to="/classement" activeClassName="active">Classement</Link></li>
                     <li><Link to="/stats" activeClassName="active">Stats</Link></li>
                     <li><Link to="/top5" activeClassName="active">Top 5</Link></li>
