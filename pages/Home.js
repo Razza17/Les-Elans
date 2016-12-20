@@ -40,19 +40,6 @@ export default () => {
                     </p>
                 </Row>
 
-
-                <Row>
-                    <Col xsHidden sm={12} className="photo">
-                        <PageHeader>Les photos en téléchargement</PageHeader>
-                        <ul>
-                            <li><Button bsStyle="primary" href="../photo/downloads/saison2013.zip">Saison 2012 - 2013 (4 Go)</Button></li>
-                            <li><Button bsStyle="primary" href="../photo/downloads/saison2014.zip">Saison 2013 - 2014</Button></li>
-                            <li><Button bsStyle="primary" href="../photo/downloads/saison2015.zip">Saison 2014 - 2015</Button></li>
-                            <li><Button bsStyle="primary" href="../photo/downloads/saison2015.zip">Saison 2015 - 2016</Button></li>
-                        </ul>
-                    </Col>
-                </Row>
-
                 <Row>
                     <Col xs={12} md={5}>
                         <PageHeader>Dimanche 04 Décembre 18h30</PageHeader>

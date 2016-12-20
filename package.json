@@ -8,7 +8,7 @@
     "url": "https://github.com/Razza17/Les-Elans"
   },
   "scripts": {
-    "start": "webpack-dev-server --hot --watch",
+    "start": "webpack-dev-server --hot --inline --watch",
     "build": "./node_modules/.bin/webpack -d"
   },
   "author": "Fabien Cordon",
