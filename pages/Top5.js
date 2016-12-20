@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import TopButsList from './TopButsList'
-import TopAssistesList from './TopAssistesList'
-import TopPointsList from './TopPointsList'
-import TopPenalitesList from './TopPenalitesList'
+import TopButsList from '../components/TopButsList'
+import TopAssistesList from '../components/TopAssistesList'
+import TopPointsList from '../components/TopPointsList'
+import TopPenalitesList from '../components/TopPenalitesList'
 
 export default class Top5 extends Component {
     render() {

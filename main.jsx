@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 import App from './App'
-import Home from './components/Home'
-import Photos from './components/Photos'
-import Classement from './components/Classement'
-import Stats from './components/Stats'
-import Top5 from './components/Top5'
-import Contact from './components/Contact'
+import Home from './pages/Home'
+import Photos from './pages/Photos'
+import Classement from './pages/Classement'
+import Stats from './pages/Stats'
+import Top5 from './pages/Top5'
+import Contact from './pages/Contact'
 
 ReactDOM.render((
     <Router history={hashHistory}>

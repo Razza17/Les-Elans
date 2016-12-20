@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { PageHeader, Row, Col, Table } from 'react-bootstrap'
-import ClassementTable from './ClassementTable'
-import ClassementTableM from './ClassementTableM'
+import ClassementTable from '../components/ClassementTable'
+import ClassementTableM from '../components/ClassementTableM'
 import Elans from '../data/Elans.json'
 
 export default class Classement extends Component {

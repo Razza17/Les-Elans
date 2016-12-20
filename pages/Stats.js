@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col, PageHeader, Table } from 'react-bootstrap'
-import StatsTable from './StatsTable'
+import StatsTable from '../components/StatsTable'
 import Elans from '../data/Elans.json'
 
 export default class Stats extends Component {
