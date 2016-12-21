@@ -89,7 +89,7 @@ export default class Photos extends Component {
                                             <td><Button bsStyle="primary" href="../photo/saison2013/Champigny Vs Fontenay.zip">Télécharger</Button></td>
                                         </tr>
                                         <tr>
-                                            <td>Champigny VS Garges</td>
+                                            <td>Champigny Vs Garges</td>
                                             <td><DomicileGarges13 /></td>
                                             <td><Button bsStyle="primary" href="../photo/saison2013/Champigny VS Garges.zip">Télécharger</Button></td>
                                         </tr>

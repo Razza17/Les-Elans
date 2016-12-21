@@ -8,16 +8,12 @@ export default () => {
                 <Carousel>
                     <Carousel.Item>
                         <Image src="../img/une/une1.jpg" />
-                        <Carousel.Caption>
-                            <h3>Toujours pas de victoire pour les roses et bleus</h3>
-                            <p>Les ELans s'écroulent 7-4 face à une équipe de Vitry peu convaincante</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <Image src="../img/une/une2.jpg" />
                         <Carousel.Caption>
-                            <h3>Dimanche 18 Décembre 18h15</h3>
-                            <p>Dernier match aller pour nos Elans loisir. Rendez-vous à la patinoire d'Evry à 18h15.</p>
+                            <h3>Match reporté</h3>
+                            <p>Le dernier match aller de nos Elans loisir a été reporté suite à un défaut d'organisation.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -42,7 +38,7 @@ export default () => {
 
                 <Row>
                     <Col xs={12} md={5}>
-                        <PageHeader>Dimanche 04 Décembre 18h30</PageHeader>
+                        <PageHeader>Match reporté</PageHeader>
                         <Row className="rencontre">
                             <Col xs={12} md={8} mdOffset={2}>
                                 <Table responsive>
