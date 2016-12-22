@@ -3,7 +3,7 @@ html, body {
     height: auto;
     margin: 0;
     padding: 0;
-    background: url(../img/backgroundHD/contentBG.jpg) no-repeat #222;
+    background: url(../img/backgroundHD/neige.gif) repeat #222;
     color: #f0ffff;
     font-size: 18px;
 }
@@ -81,7 +81,7 @@ ul {
 
 /* HOME PAGE */
 .home{
-    background: url(../img/backgroundHD/contentBG.jpg) no-repeat #222;
+    background: url(../img/backgroundHD/neige.gif) repeat #222;
 }
 
 .photo ul li {
@@ -109,6 +109,10 @@ ul {
 
 .custom-modal {
     color: #222;
+    width: 100%;
+    height: 100%;
+    max-width: 1080px;
+    max-height: 718px;
 }
 
 .custom-modal .carousel-indicators {
