@@ -154,7 +154,7 @@ export default class Photos extends Component {
                                 </Table>
                             </Col>
                             <Col xs={12}>
-                                <Button bsStyle="primary" href="../photo/downloads/saison2013.zip">Télécharger toute la saison (4 Go)</Button>
+                                <Button bsStyle="primary" href="../photo/downloads/saison2013.zip">Télécharger toute la saison (1,19 Go)</Button>
                             </Col>
                         </Panel>
                         <Button bsStyle="info" onClick={ ()=> this.setState({ open2: !this.state.open2, open1: false, open3: false, open4: false })}>

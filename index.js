@@ -48811,7 +48811,7 @@
 	                                _react2.default.createElement(
 	                                    _reactBootstrap.Button,
 	                                    { bsStyle: 'primary', href: '../photo/downloads/saison2013.zip' },
-	                                    'T\xE9l\xE9charger toute la saison (4 Go)'
+	                                    'T\xE9l\xE9charger toute la saison (1,19 Go)'
 	                                )
 	                            )
 	                        ),
