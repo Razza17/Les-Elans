@@ -43,7 +43,7 @@ export default () => {
                             <Col xs={12} md={8} mdOffset={2}>
                                 <Table responsive>
                                     <tr>
-                                        <td><img src="img/logos/logo-evry-viry.png" alt="Evry-Viry" /></td>
+                                        <td><img src="img/logos/logo-vitry.png" alt="Evry-Viry" /></td>
                                         <td>VS</td>
                                         <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
                                     </tr>

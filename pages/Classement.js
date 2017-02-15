@@ -104,13 +104,43 @@ export default class Classement extends Component {
                                 </tr>
 
                                 <tr>
-                                    <td>Dimanche 04 Décembre 18h30</td>
+                                    <td>Dimanche 4 Décembre 18h30</td>
                                     <td>Champigny 4 - 7 Vitry</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Match reporté</td>
-                                    <td>Evry Vs Champigny</td>
+                                    <td>Dimanche 19 Février 18h00</td>
+                                    <td>Vitry Vs Champigny</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Dimanche 26 Février 18h30</td>
+                                    <td>Champigny Vs Evry/Viry</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Dimanche 5 Mars 18h00</td>
+                                    <td>Evry/Viry Vs Champigny</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Dimanche 19 Mars 18h30</td>
+                                    <td>Champigny Vs F.Volants</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Dimanche 26 Mars 20h30</td>
+                                    <td>Franconville Vs Champigny</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Dimanche 2 Avril 18h30</td>
+                                    <td>Champigny Vs Meudon</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Dimanche 23 Avril 18h30</td>
+                                    <td>Fontenay Vs Champigny</td>
                                 </tr>
                             </tbody>
                         </Table>
