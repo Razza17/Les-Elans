@@ -38,7 +38,7 @@ export default () => {
 
                 <Row>
                     <Col xs={12} md={5}>
-                        <PageHeader>Match reporté</PageHeader>
+                        <PageHeader>Dimanche 19 Février 18h</PageHeader>
                         <Row className="rencontre">
                             <Col xs={12} md={8} mdOffset={2}>
                                 <Table responsive>
@@ -53,8 +53,8 @@ export default () => {
 
                         <Row>
                             <p>
-                                Avant dernière journée des matchs allé pour nos EG, toujours en quête de leur première victoire dans le championnat.
-                                Venez nombreux les encourager à Champigny le dimanche 04 Décembre à 18h30 !
+                                La saison redémarre, après la trève de Noël, nos ELans commencent la deuxième partie de leur championnat en ce déplaçant
+                                chez les Vikings de Vitry !!!!
                             </p>
                         </Row>
                     </Col>
