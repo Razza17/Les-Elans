@@ -12,15 +12,15 @@ export default () => {
                     <Carousel.Item>
                         <Image src="../img/une/une2.jpg" />
                         <Carousel.Caption>
-                            <h3>Match reporté</h3>
-                            <p>Le dernier match aller de nos Elans loisir a été reporté suite à un défaut d'organisation.</p>
+                            <h3>Dimanche 19 Février 18h00</h3>
+                            <p>Assistera-t-on à la première victoire de nos Elans G ce week-end ?</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <Image src="../img/une/une3.jpg" />
                         <Carousel.Caption>
-                            <h3>Le retour en D3</h3>
-                            <p>Landry Labat, attendu cette année avec nos Elans G, a finalement signé pour une année de plus en D3.</p>
+                            <h3>Match reporté</h3>
+                            <p>Le dernier match aller de nos Elans loisir a été reporté suite à un défaut d'organisation.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
