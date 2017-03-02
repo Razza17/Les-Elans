@@ -110,12 +110,7 @@ export default class Classement extends Component {
 
                                 <tr>
                                     <td>Dimanche 19 Février 18h00</td>
-                                    <td>Vitry Vs Champigny</td>
-                                </tr>
-
-                                <tr>
-                                    <td>Dimanche 26 Février 18h30</td>
-                                    <td>Champigny Vs Evry/Viry</td>
+                                    <td>Vitry 7 - 9 Champigny</td>
                                 </tr>
 
                                 <tr>

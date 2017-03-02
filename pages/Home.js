@@ -10,17 +10,17 @@ export default () => {
                         <Image src="../img/une/une1.jpg" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src="../img/une/une2.jpg" />
+                        <Image src="../img/une/une3.jpg" />
                         <Carousel.Caption>
-                            <h3>Dimanche 19 Février 18h00</h3>
-                            <p>Assistera-t-on à la première victoire de nos Elans G ce week-end ?</p>
+                            <h3>Dimanche 05 Mars 18h00</h3>
+                            <p>Après leur première victoire en championnat, les EGs se déplacent à Evry.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src="../img/une/une3.jpg" />
+                        <Image src="../img/une/une2.jpg" />
                         <Carousel.Caption>
-                            <h3>Match reporté</h3>
-                            <p>Le dernier match aller de nos Elans loisir a été reporté suite à un défaut d'organisation.</p>
+                            <h3>LA première victoire de la saison</h3>
+                            <p>Dimanche dernier nos EGs sont sorti victorieux de leur rencontre face aux Vikings de Vitry (9-7)</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -38,12 +38,12 @@ export default () => {
 
                 <Row>
                     <Col xs={12} md={5}>
-                        <PageHeader>Dimanche 19 Février 18h</PageHeader>
+                        <PageHeader>Dimanche 05 Mars 18h</PageHeader>
                         <Row className="rencontre">
                             <Col xs={12} md={8} mdOffset={2}>
                                 <Table responsive>
                                     <tr>
-                                        <td><img src="img/logos/logo-vitry.png" alt="Evry-Viry" /></td>
+                                        <td><img src="img/logos/logo-evry-viry.png" alt="Evry-Viry" /></td>
                                         <td>VS</td>
                                         <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
                                     </tr>
@@ -53,8 +53,8 @@ export default () => {
 
                         <Row>
                             <p>
-                                La saison redémarre, après la trève de Noël, nos ELans commencent la deuxième partie de leur championnat en ce déplaçant
-                                chez les Vikings de Vitry !!!!
+                                La deuxième partie de saison démarre bien pour nos EGs avec une victoire (9-7) face à vitry.
+                                Il reste à confirmer face à Evry ce week end.
                             </p>
                         </Row>
                     </Col>
