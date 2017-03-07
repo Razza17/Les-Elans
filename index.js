@@ -48111,25 +48111,6 @@
 	                _react2.default.createElement(
 	                    _reactBootstrap.Carousel.Item,
 	                    null,
-	                    _react2.default.createElement(_reactBootstrap.Image, { src: '../img/une/une3.jpg' }),
-	                    _react2.default.createElement(
-	                        _reactBootstrap.Carousel.Caption,
-	                        null,
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            'Dimanche 05 Mars 18h00'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            'Apr\xE8s leur premi\xE8re victoire en championnat, les EGs se d\xE9placent \xE0 Evry.'
-	                        )
-	                    )
-	                ),
-	                _react2.default.createElement(
-	                    _reactBootstrap.Carousel.Item,
-	                    null,
 	                    _react2.default.createElement(_reactBootstrap.Image, { src: '../img/une/une2.jpg' }),
 	                    _react2.default.createElement(
 	                        _reactBootstrap.Carousel.Caption,
@@ -48137,12 +48118,31 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'LA premi\xE8re victoire de la saison'
+	                            'Dimanche 19 Mars 18h00'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Dimanche dernier nos EGs sont sorti victorieux de leur rencontre face aux Vikings de Vitry (9-7)'
+	                            'Suite des matchs retour \xE0 Champigny contre les Fran\xE7ais Volants de Paris.'
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    _reactBootstrap.Carousel.Item,
+	                    null,
+	                    _react2.default.createElement(_reactBootstrap.Image, { src: '../img/une/une3.jpg' }),
+	                    _react2.default.createElement(
+	                        _reactBootstrap.Carousel.Caption,
+	                        null,
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '+1 pour le compte des d\xE9faites'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'Dimancher dernier les EGs ont conc\xE9d\xE9 une d\xE9faite face \xE0 Evry/Viry sur le score de 9 - 4'
 	                        )
 	                    )
 	                )
@@ -48182,7 +48182,7 @@
 	                    _react2.default.createElement(
 	                        _reactBootstrap.PageHeader,
 	                        null,
-	                        'Dimanche 05 Mars 18h'
+	                        'Dimanche 19 Mars 18h'
 	                    ),
 	                    _react2.default.createElement(
 	                        _reactBootstrap.Row,
@@ -48199,7 +48199,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        _react2.default.createElement('img', { src: 'img/logos/logo-evry-viry.png', alt: 'Evry-Viry' })
+	                                        _react2.default.createElement('img', { src: 'img/logos/logo-eg.png', alt: 'Les Elans de Champigny' })
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'td',
@@ -48209,7 +48209,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        _react2.default.createElement('img', { src: 'img/logos/logo-eg.png', alt: 'Les Elans de Champigny' })
+	                                        _react2.default.createElement('img', { src: 'img/logos/logo-paris.png', alt: 'Les F.Volants de Paris' })
 	                                    )
 	                                )
 	                            )
@@ -48221,7 +48221,7 @@
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'La deuxi\xE8me partie de saison d\xE9marre bien pour nos EGs avec une victoire (9-7) face \xE0 vitry. Il reste \xE0 confirmer face \xE0 Evry ce week end.'
+	                            'Suite des matchs retour \xE0 Champigny contre les Fran\xE7ais Volants de Paris.'
 	                        )
 	                    )
 	                ),
@@ -55408,11 +55408,11 @@
 		"stats": [{
 			"nom": "Labat",
 			"prenom": "Laurent",
-			"buts": 7,
+			"buts": 9,
 			"assistes": 5,
-			"points": 12,
-			"penalites": 4,
-			"matchs": 6,
+			"points": 14,
+			"penalites": 8,
+			"matchs": 7,
 			"img": "../img/joueurs/louloute.jpg"
 		}, {
 			"nom": "Gachon",
@@ -55420,8 +55420,8 @@
 			"buts": 2,
 			"assistes": 3,
 			"points": 5,
-			"penalites": 6,
-			"matchs": 5,
+			"penalites": 8,
+			"matchs": 6,
 			"img": "../img/joueurs/damien.jpg"
 		}, {
 			"nom": "Gravier",
@@ -55429,8 +55429,8 @@
 			"buts": 1,
 			"assistes": 0,
 			"points": 1,
-			"penalites": 0,
-			"matchs": 4,
+			"penalites": 2,
+			"matchs": 5,
 			"img": "../img/joueurs/fabrice.jpg"
 		}, {
 			"nom": "Renard",
@@ -55457,7 +55457,7 @@
 			"assistes": 0,
 			"points": 4,
 			"penalites": 0,
-			"matchs": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/charly.jpg"
 		}, {
 			"nom": "Chantelard",
@@ -55471,11 +55471,11 @@
 		}, {
 			"nom": "Cordon",
 			"prenom": "Fabien",
-			"buts": 4,
-			"assistes": 3,
-			"points": 7,
-			"penalites": 14,
-			"matchs": 5,
+			"buts": 5,
+			"assistes": 4,
+			"points": 9,
+			"penalites": 16,
+			"matchs": 6,
 			"img": "../img/joueurs/fab.jpg"
 		}, {
 			"nom": "Florchinger",
@@ -55484,7 +55484,7 @@
 			"assistes": 0,
 			"points": 4,
 			"penalites": 20,
-			"matchs": 6,
+			"matchs": 7,
 			"img": "../img/joueurs/fred.jpg"
 		}, {
 			"nom": "Daudet",
@@ -55493,7 +55493,7 @@
 			"assistes": 0,
 			"points": 0,
 			"penalites": 6,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/yoann.jpg"
 		}, {
 			"nom": "Le Dour",
@@ -55502,7 +55502,7 @@
 			"assistes": 2,
 			"points": 3,
 			"penalites": 0,
-			"matchs": 5,
+			"matchs": 6,
 			"img": "../img/joueurs/seb.jpg"
 		}, {
 			"nom": "Bouaziz",
@@ -55511,7 +55511,7 @@
 			"assistes": 3,
 			"points": 3,
 			"penalites": 0,
-			"matchs": 6,
+			"matchs": 7,
 			"img": "../img/joueurs/vanya.jpg"
 		}, {
 			"nom": "Chantelard",
@@ -55525,11 +55525,11 @@
 		}, {
 			"nom": "Aghroud",
 			"prenom": "Bachir",
-			"buts": 4,
+			"buts": 5,
 			"assistes": 1,
-			"points": 5,
+			"points": 6,
 			"penalites": 2,
-			"matchs": 6,
+			"matchs": 7,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Magnien",
@@ -55547,7 +55547,7 @@
 			"assistes": 0,
 			"points": 0,
 			"penalites": 4,
-			"matchs": 6,
+			"matchs": 7,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Msika",
@@ -55555,17 +55555,17 @@
 			"buts": 0,
 			"assistes": 1,
 			"points": 1,
-			"penalites": 2,
-			"matchs": 6,
+			"penalites": 4,
+			"matchs": 7,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Toublant",
 			"prenom": "Romain",
 			"buts": 1,
-			"assistes": 1,
-			"points": 2,
+			"assistes": 2,
+			"points": 3,
 			"penalites": 0,
-			"matchs": 2,
+			"matchs": 3,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Besombes",
@@ -55574,7 +55574,7 @@
 			"assistes": 0,
 			"points": 1,
 			"penalites": 2,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/player.jpg"
 		}]
 	};

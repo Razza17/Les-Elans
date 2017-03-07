@@ -10,17 +10,17 @@ export default () => {
                         <Image src="../img/une/une1.jpg" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src="../img/une/une3.jpg" />
+                        <Image src="../img/une/une2.jpg" />
                         <Carousel.Caption>
-                            <h3>Dimanche 05 Mars 18h00</h3>
-                            <p>Après leur première victoire en championnat, les EGs se déplacent à Evry.</p>
+                            <h3>Dimanche 19 Mars 18h00</h3>
+                            <p>Suite des matchs retour à Champigny contre les Français Volants de Paris.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src="../img/une/une2.jpg" />
+                        <Image src="../img/une/une3.jpg" />
                         <Carousel.Caption>
-                            <h3>LA première victoire de la saison</h3>
-                            <p>Dimanche dernier nos EGs sont sorti victorieux de leur rencontre face aux Vikings de Vitry (9-7)</p>
+                            <h3>+1 pour le compte des défaites</h3>
+                            <p>Dimancher dernier les EGs ont concédé une défaite face à Evry/Viry sur le score de 9 - 4</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -38,14 +38,14 @@ export default () => {
 
                 <Row>
                     <Col xs={12} md={5}>
-                        <PageHeader>Dimanche 05 Mars 18h</PageHeader>
+                        <PageHeader>Dimanche 19 Mars 18h</PageHeader>
                         <Row className="rencontre">
                             <Col xs={12} md={8} mdOffset={2}>
                                 <Table responsive>
                                     <tr>
-                                        <td><img src="img/logos/logo-evry-viry.png" alt="Evry-Viry" /></td>
-                                        <td>VS</td>
                                         <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
+                                        <td>VS</td>
+                                        <td><img src="img/logos/logo-paris.png" alt="Les F.Volants de Paris" /></td>
                                     </tr>
                                 </Table>
                             </Col>
@@ -53,8 +53,7 @@ export default () => {
 
                         <Row>
                             <p>
-                                La deuxième partie de saison démarre bien pour nos EGs avec une victoire (9-7) face à vitry.
-                                Il reste à confirmer face à Evry ce week end.
+                                Suite des matchs retour à Champigny contre les Français Volants de Paris.
                             </p>
                         </Row>
                     </Col>
