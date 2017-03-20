@@ -55860,7 +55860,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        'Champigny Vs F.Volants'
+	                                        'Champigny 14 - 11 F.Volants'
 	                                    )
 	                                ),
 	                                _react2.default.createElement(
@@ -56083,34 +56083,34 @@
 			"diff": "+22",
 			"malus": "0"
 		}, {
-			"position": 5,
+			"position": 6,
 			"equipe": "Fontenay",
-			"joues": "6",
-			"points": "16",
+			"joues": "7",
+			"points": "17",
 			"gagne": "2",
 			"nul": "2",
-			"perdu": "2",
-			"diff": "+03",
+			"perdu": "3",
+			"diff": "+02",
 			"malus": "-2"
 		}, {
-			"position": 3,
+			"position": 2,
 			"equipe": "Vitry",
-			"joues": "7",
-			"points": "21",
-			"gagne": "4",
+			"joues": "8",
+			"points": "26",
+			"gagne": "5",
 			"nul": "0",
 			"perdu": "3",
-			"diff": "+01",
+			"diff": "+02",
 			"malus": "-1"
 		}, {
-			"position": 2,
+			"position": 3,
 			"equipe": "F.Volants",
-			"joues": "9",
-			"points": "23",
+			"joues": "10",
+			"points": "24",
 			"gagne": "4",
 			"nul": "0",
-			"perdu": "5",
-			"diff": "+02",
+			"perdu": "6",
+			"diff": "-01",
 			"malus": "-2"
 		}, {
 			"position": 4,
@@ -56123,17 +56123,17 @@
 			"diff": "+02",
 			"malus": "-1"
 		}, {
-			"position": 7,
+			"position": 6,
 			"equipe": "Champigny",
-			"joues": "7",
-			"points": "12",
-			"gagne": "1",
+			"joues": "8",
+			"points": "17",
+			"gagne": "2",
 			"nul": "1",
 			"perdu": "5",
-			"diff": "-20",
+			"diff": "-17",
 			"malus": "-1"
 		}, {
-			"position": 6,
+			"position": 7,
 			"equipe": "Franconville",
 			"joues": "7",
 			"points": "16",
@@ -56146,29 +56146,29 @@
 		"stats": [{
 			"nom": "Labat",
 			"prenom": "Laurent",
-			"buts": 9,
-			"assistes": 5,
-			"points": 14,
+			"buts": 14,
+			"assistes": 6,
+			"points": 20,
 			"penalites": 8,
-			"matchs": 7,
+			"matchs": 8,
 			"img": "../img/joueurs/louloute.jpg"
 		}, {
 			"nom": "Gachon",
 			"prenom": "Damien",
-			"buts": 2,
-			"assistes": 3,
-			"points": 5,
+			"buts": 5,
+			"assistes": 4,
+			"points": 9,
 			"penalites": 8,
-			"matchs": 6,
+			"matchs": 7,
 			"img": "../img/joueurs/damien.jpg"
 		}, {
 			"nom": "Gravier",
 			"prenom": "Fabrice",
-			"buts": 1,
-			"assistes": 0,
-			"points": 1,
-			"penalites": 2,
-			"matchs": 5,
+			"buts": 2,
+			"assistes": 2,
+			"points": 4,
+			"penalites": 4,
+			"matchs": 6,
 			"img": "../img/joueurs/fabrice.jpg"
 		}, {
 			"nom": "Renard",
@@ -56195,7 +56195,7 @@
 			"assistes": 0,
 			"points": 4,
 			"penalites": 0,
-			"matchs": 5,
+			"matchs": 6,
 			"img": "../img/joueurs/charly.jpg"
 		}, {
 			"nom": "Chantelard",
@@ -56209,20 +56209,20 @@
 		}, {
 			"nom": "Cordon",
 			"prenom": "Fabien",
-			"buts": 5,
-			"assistes": 4,
-			"points": 9,
-			"penalites": 16,
-			"matchs": 6,
+			"buts": 7,
+			"assistes": 6,
+			"points": 13,
+			"penalites": 18,
+			"matchs": 7,
 			"img": "../img/joueurs/fab.jpg"
 		}, {
 			"nom": "Florchinger",
 			"prenom": "Fred",
 			"buts": 4,
-			"assistes": 0,
-			"points": 4,
-			"penalites": 20,
-			"matchs": 7,
+			"assistes": 4,
+			"points": 8,
+			"penalites": 32,
+			"matchs": 8,
 			"img": "../img/joueurs/fred.jpg"
 		}, {
 			"nom": "Daudet",
@@ -56249,7 +56249,7 @@
 			"assistes": 3,
 			"points": 3,
 			"penalites": 0,
-			"matchs": 7,
+			"matchs": 8,
 			"img": "../img/joueurs/vanya.jpg"
 		}, {
 			"nom": "Chantelard",
@@ -56266,44 +56266,44 @@
 			"buts": 5,
 			"assistes": 1,
 			"points": 6,
-			"penalites": 2,
-			"matchs": 7,
+			"penalites": 4,
+			"matchs": 8,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Magnien",
 			"prenom": "Paul",
 			"buts": 0,
-			"assistes": 3,
-			"points": 3,
-			"penalites": 0,
-			"matchs": 5,
+			"assistes": 4,
+			"points": 4,
+			"penalites": 2,
+			"matchs": 6,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Campos",
 			"prenom": "Jonathan",
-			"buts": 0,
-			"assistes": 0,
-			"points": 0,
-			"penalites": 4,
-			"matchs": 7,
+			"buts": 2,
+			"assistes": 1,
+			"points": 3,
+			"penalites": 6,
+			"matchs": 8,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Msika",
 			"prenom": "Mikhael",
 			"buts": 0,
-			"assistes": 1,
-			"points": 1,
+			"assistes": 2,
+			"points": 2,
 			"penalites": 4,
-			"matchs": 7,
+			"matchs": 8,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Toublant",
 			"prenom": "Romain",
-			"buts": 1,
+			"buts": 2,
 			"assistes": 2,
-			"points": 3,
+			"points": 4,
 			"penalites": 0,
-			"matchs": 3,
+			"matchs": 4,
 			"img": "../img/joueurs/player.jpg"
 		}, {
 			"nom": "Besombes",
@@ -56312,7 +56312,7 @@
 			"assistes": 0,
 			"points": 1,
 			"penalites": 2,
-			"matchs": 4,
+			"matchs": 5,
 			"img": "../img/joueurs/player.jpg"
 		}]
 	};
