@@ -11,16 +11,12 @@ export default () => {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Image src="../img/une/une2.jpg" />
-                        <Carousel.Caption>
-                            <h3>Dimanche 19 Mars 18h00</h3>
-                            <p>Suite des matchs retour à Champigny contre les Français Volants de Paris.</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <Image src="../img/une/une3.jpg" />
                         <Carousel.Caption>
-                            <h3>+1 pour le compte des défaites</h3>
-                            <p>Dimancher dernier les EGs ont concédé une défaite face à Evry/Viry sur le score de 9 - 4</p>
+                            <h3>Les EG ne décollent pas du bas de tableau</h3>
+                            <p>Les Elans G ont perdu leur match contre Franconville (6-4) ce qui les empêche de prendre le large sur le bas du classement</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -45,7 +41,7 @@ export default () => {
                                     <tr>
                                         <td><img src="img/logos/logo-eg.png" alt="Les Elans de Champigny" /></td>
                                         <td>VS</td>
-                                        <td><img src="img/logos/logo-paris.png" alt="Les F.Volants de Paris" /></td>
+                                        <td><img src="img/logos/logo-meudon.png" alt="Les Comètes de Meudon" /></td>
                                     </tr>
                                 </Table>
                             </Col>
@@ -53,7 +49,7 @@ export default () => {
 
                         <Row>
                             <p>
-                                Suite des matchs retour à Champigny contre les Français Volants de Paris.
+                                Ce week end nos Elans G rencontrent les leader et champions de France en titre : Les Comètes de Meudon.
                             </p>
                         </Row>
                     </Col>

@@ -48855,21 +48855,7 @@
 	                _react2.default.createElement(
 	                    _reactBootstrap.Carousel.Item,
 	                    null,
-	                    _react2.default.createElement(_reactBootstrap.Image, { src: '../img/une/une2.jpg' }),
-	                    _react2.default.createElement(
-	                        _reactBootstrap.Carousel.Caption,
-	                        null,
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            'Dimanche 19 Mars 18h00'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            'Suite des matchs retour \xE0 Champigny contre les Fran\xE7ais Volants de Paris.'
-	                        )
-	                    )
+	                    _react2.default.createElement(_reactBootstrap.Image, { src: '../img/une/une2.jpg' })
 	                ),
 	                _react2.default.createElement(
 	                    _reactBootstrap.Carousel.Item,
@@ -48881,12 +48867,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '+1 pour le compte des d\xE9faites'
+	                            'Les EG ne d\xE9collent pas du bas de tableau'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Dimancher dernier les EGs ont conc\xE9d\xE9 une d\xE9faite face \xE0 Evry/Viry sur le score de 9 - 4'
+	                            'Les Elans G ont perdu leur match contre Franconville (6-4) ce qui les emp\xEAche de prendre le large sur le bas du classement'
 	                        )
 	                    )
 	                )
@@ -48953,7 +48939,7 @@
 	                                    _react2.default.createElement(
 	                                        'td',
 	                                        null,
-	                                        _react2.default.createElement('img', { src: 'img/logos/logo-paris.png', alt: 'Les F.Volants de Paris' })
+	                                        _react2.default.createElement('img', { src: 'img/logos/logo-meudon.png', alt: 'Les Com\xE8tes de Meudon' })
 	                                    )
 	                                )
 	                            )
@@ -48965,7 +48951,7 @@
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Suite des matchs retour \xE0 Champigny contre les Fran\xE7ais Volants de Paris.'
+	                            'Ce week end nos Elans G rencontrent les leader et champions de France en titre : Les Com\xE8tes de Meudon.'
 	                        )
 	                    )
 	                ),
