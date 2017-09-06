@@ -22,7 +22,7 @@ export default () => {
                 </Carousel>
             </Row>
             <section className="home">
-                <Row>
+                <Row className="welcome">
                     <PageHeader>Bienvenue sur le site des Elans Loisirs</PageHeader>
                     <p>
                         Les Elans loisirs de Champigny est une équipe de hockey sur glace située en région parisienne (Champigny sur Marne) et engagée dans le Trophée Fédéral Loisir.<br /><br />

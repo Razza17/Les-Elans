@@ -3,12 +3,13 @@ html, body {
     height: auto;
     margin: 0;
     padding: 0;
-    background: url(../img/backgroundHD/contentBG.jpg) repeat #222;
+    background-color: #222;
     color: #f0ffff;
     font-size: 18px;
 }
 
-/* NAVIGATION */
+/* NAVIGATION 
+_________________________________________________________________________*/
 .navbar-brand {
     padding: 0 14px;
 }
@@ -33,7 +34,8 @@ html, body {
 /* FIN NAVIGATION */
 
 
-/* CONTENT */
+/* CONTENT 
+___________________________________________________________________________*/
 .row {
     margin-left: 0;
     margin-right: 0;
@@ -79,9 +81,13 @@ ul {
 }
 
 
-/* HOME PAGE */
-.home{
-    background: url(../img/backgroundHD/contentBG.jpg) no-repeat #222;
+/* HOME PAGE 
+____________________________________________________________________________*/
+.home .welcome{
+    background: url(../img/gaizette/equipe2016bis.jpg) no-repeat;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
 }
 
 .photo ul li {
